@@ -33,7 +33,7 @@ public:
 
     // User-defined class with hashCode()
     template<typename T>
-    int generate(const T& key) const
+    auto generate(const T& key) const
         -> decltype(key.hashCode())
     {
         return key.hashCode();

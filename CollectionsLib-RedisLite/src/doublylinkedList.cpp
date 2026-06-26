@@ -1,8 +1,8 @@
 #include <cstdlib>
 #include <new>
 #include <stdexcept>
-#ifndef HASH_FUNCTION_CPP 
-#define HASH_FUNCTION_CPP
+#ifndef DOUBLYLINKEDLIST_CPP 
+#define DOUBLYLINKEDLIST_CPP
 
 using namespace std;
 
@@ -150,3 +150,5 @@ public:
     }
 };
 
+
+#endif // DOUBLYLINKEDLIST_CPP

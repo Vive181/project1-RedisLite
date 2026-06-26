@@ -1,8 +1,8 @@
 #include <cstdlib>
 #include <new>
 #include <stdexcept>
-#ifndef HASH_FUNCTION_CPP 
-#define HASH_FUNCTION_CPP
+#ifndef LINKEDLIST_CPP 
+#define LINKEDLIST_CPP
 
 using namespace std;
 
@@ -117,3 +117,5 @@ public:
 
 };
 
+
+#endif // LINKEDLIST_CPP

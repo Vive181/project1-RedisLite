@@ -1,8 +1,8 @@
 #include <functional>
 #include <cstddef>
 #include <string>
-#ifndef HASH_FUNCTION_CPP 
-#define HASH_FUNCTION_CPP
+#ifndef HASHMAP_H 
+#define HASHMAP_H
 
 template<typename T>
 struct Hash
@@ -289,3 +289,4 @@ public:
         currentSize = 0;
     }
 };
+#endif // HASHMAP_H

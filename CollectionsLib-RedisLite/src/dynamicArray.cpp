@@ -1,8 +1,8 @@
 #include <stdexcept>
 #include <cstdlib>
 #include <new>
-#ifndef HASH_FUNCTION_CPP 
-#define HASH_FUNCTION_CPP
+#ifndef DYNAMICARRAY_CPP 
+#define DYNAMICARRAY_CPP
 
 using namespace std;
 
@@ -156,3 +156,5 @@ DynamicArray& operator=(const DynamicArray& other)
     
 };
 
+
+#endif // DYNAMICARRAY_CPP

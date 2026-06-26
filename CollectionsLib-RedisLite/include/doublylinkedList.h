@@ -1,7 +1,8 @@
-#include <iostream>
 #include <cstdlib>
 #include <new>
 #include <stdexcept>
+#ifndef HASH_FUNCTION_CPP 
+#define HASH_FUNCTION_CPP
 
 using namespace std;
 
@@ -128,19 +129,6 @@ public:
     int getSize()
     {
         return size;
-    }
-
-    void display()
-    {
-        Node* current = head;
-
-        while(current)
-        {
-            cout << current->data << " <-> ";
-            current = current->next;
-        }
-
-        cout << "NULL" << endl;
     }
 
     void clear()

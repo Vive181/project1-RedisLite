@@ -9,7 +9,7 @@ struct Hash
 {
     static size_t hash(const T& value)
     {
-        return std::hash<T>{}(value);
+        return std::hash<T>{}(value); //return the unsigned number
     }
 };
 
@@ -19,12 +19,7 @@ class HashMap
 {
 private:
 
-
-//Node is just a simple data container
-//It is not meant to enforce rules or hide data.
-//there is no need of encapsulation
-//class is used when we need datahiding and encapsulation
-    struct Node //linked-list node used for collision handling.
+    struct Node
     {
         Key key;
         Value value;
@@ -45,7 +40,7 @@ private:
     {
         return static_cast<float>(currentSize) / bucketCount;
     }
-    //float because the result is a decimal number, not an integer.
+
 
     void rehash()
     {

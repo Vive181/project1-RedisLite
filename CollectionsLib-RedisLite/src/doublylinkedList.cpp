@@ -7,49 +7,58 @@
 using namespace std;
 
 template<typename T>
-class LinkedList
+class DoublyLinkedList
 {
+private:
+
     struct Node
     {
         T data;
+        Node* prev;
         Node* next;
 
         Node(const T& value)
         {
             data = value;
+            prev = nullptr;
             next = nullptr;
         }
     };
 
     Node* head;
+    Node* tail;
     int size;
 
 public:
 
-    LinkedList()
+    DoublyLinkedList()
     {
         head = nullptr;
+        tail = nullptr;
         size = 0;
     }
 
-    ~LinkedList()
+    ~DoublyLinkedList()
     {
         clear();
     }
 
-    void insertFront(const T& value)
+    void insertBack(const T& value)
     {
         Node* node = (Node*)malloc(sizeof(Node));
 
-        if(node == nullptr)
-        {
-            throw bad_alloc();
-        }
-
         new (node) Node(value);
 
-        node->next = head;
-        head = node;
+        if(head == nullptr)
+        {
+            head = tail = node;
+        }
+        else
+        {
+            tail->next = node;
+            node->prev = tail;
+            tail = node;
+        }
 
         size++;
     }
@@ -73,24 +82,48 @@ public:
 
     void set(int index, const T& value)
     {
-        if(index < 0 || index >= size)
-        {
-            throw out_of_range("Index out of range");
-        }
+        get(index) = value;
+    }
 
+    bool remove(const T& value)
+    {
         Node* current = head;
 
-        for(int i = 0; i < index; i++)
+        while(current)
         {
+            if(current->data == value)
+            {
+                if(current == head)
+                {
+                    head = current->next;
+                }
+
+                if(current == tail)
+                {
+                    tail = current->prev;
+                }
+
+                if(current->prev)
+                {
+                    current->prev->next = current->next;
+                }
+
+                if(current->next)
+                {
+                    current->next->prev = current->prev;
+                }
+
+                current->~Node();
+                free(current);
+
+                size--;
+                return true;
+            }
+
             current = current->next;
         }
 
-        current->data = value;
-    }
-
-    bool isEmpty()
-    {
-        return size == 0;
+        return false;
     }
 
     int getSize()
@@ -112,8 +145,8 @@ public:
         }
 
         head = nullptr;
+        tail = nullptr;
         size = 0;
     }
-
 };
 

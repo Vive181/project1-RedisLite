@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(CollectionsLite-RedisLite)
+
+add_executable(dynamicArray.cpp)
+add_executable(doublyLinkedList.cpp)
+add_executable(hashmap.cpp)
+add_executable(hash.cpp)
+

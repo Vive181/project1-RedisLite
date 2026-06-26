@@ -1,6 +1,8 @@
-#include <iostream>
 #include <stdexcept>
 #include <cstdlib>
+#include <new>
+#ifndef HASH_FUNCTION_CPP 
+#define HASH_FUNCTION_CPP
 
 using namespace std;
 
@@ -48,6 +50,7 @@ public:
         }
 
         free(data);     
+        data = nullptr;
     }
     
     // Copy Constructor
@@ -67,17 +70,21 @@ DynamicArray(const DynamicArray& other)
 // Copy Assignment Operator
 //it is used to assign the value of object that has previous array and copy previous array value into new object
 // that has new array but due to deep copy this array has new heap memory
-
 DynamicArray& operator=(const DynamicArray& other)
 {
-    if(this != &other) //if obj1=obj2 
+    if(this != &other) //check ob1==ob2
     {
-        free(data); //delete obj1
+        for(int i = 0; i < size; i++)
+        {
+            data[i].~T();
+        }
+
+        free(data);
 
         size = other.size;
         capacity = other.capacity;
 
-        data = (T*)malloc(capacity*sizeof(T));
+        data = (T*)malloc(capacity * sizeof(T));
 
         for(int i = 0; i < size; i++)
         {
@@ -87,7 +94,8 @@ DynamicArray& operator=(const DynamicArray& other)
 
     return *this;
 }
-    void pushBack(T value)
+
+    void pushBack(const T& value)
     {
         if(size == capacity)
         {
@@ -118,14 +126,11 @@ DynamicArray& operator=(const DynamicArray& other)
 
     void popBack()
     {
-        if(size > 0)
-        {
-            if(size > 0)
-            {
-               data[size - 1].~T();  // destroy string
-               size--;
-            }
-        }
+       if(size > 0)
+       {
+          data[size - 1].~T();
+          size--;
+       }
     }
 
     int getSize()
@@ -148,14 +153,6 @@ DynamicArray& operator=(const DynamicArray& other)
         size = 0;
     }
 
-    void display()
-    {
-        for(int i = 0; i < size; i++)
-        {
-            cout << data[i] << " ";
-        }
-
-        cout << endl;
-    }
+    
 };
 

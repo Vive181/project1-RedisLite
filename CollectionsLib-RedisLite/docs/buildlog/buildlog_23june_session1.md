@@ -1,9 +1,10 @@
-# Duration: 2 hours
+Date: June 23
+Duration: 120 minutes
 
 Goal:
 
 update the dynamicarray and add malloc for dynamic memory allocation and use placemenet new 
-to call contructor and also have to complete singly and doubly linkedlist.
+to call contructor 
 Problem Encountered:
 
 1. segmentation error occurs i manually manage constructors and destructors to solve this

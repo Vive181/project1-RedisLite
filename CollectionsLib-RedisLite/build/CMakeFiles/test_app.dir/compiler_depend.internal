@@ -3,12 +3,9 @@
 
 CMakeFiles/test_app.dir/main.cpp.obj
  D:/projects/RedisLite/CollectionsLib-RedisLite/main.cpp
- D:/projects/RedisLite/CollectionsLib-RedisLite/include/CollectionsLib.h
- D:/projects/RedisLite/CollectionsLib-RedisLite/include/doublylinkedList.h
- D:/projects/RedisLite/CollectionsLib-RedisLite/include/dynamicArray.h
- D:/projects/RedisLite/CollectionsLib-RedisLite/include/hash.h
- D:/projects/RedisLite/CollectionsLib-RedisLite/include/hashmap.h
- D:/projects/RedisLite/CollectionsLib-RedisLite/include/linkedList.h
+ D:/projects/RedisLite/CollectionsLib-RedisLite/include/HashMap.h
+ D:/projects/RedisLite/CollectionsLib-RedisLite/include/Redis.h
+ D:/projects/RedisLite/CollectionsLib-RedisLite/include/parser.h
  c:/mingw/include/_mingw.h
  c:/mingw/include/ctype.h
  c:/mingw/include/direct.h

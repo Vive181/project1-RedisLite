@@ -1,5 +1,5 @@
 Date: June 25
-Duration: 90 minutes
+Duration: 120 minutes
 
 Goal: complete hash function and redis lite 
 

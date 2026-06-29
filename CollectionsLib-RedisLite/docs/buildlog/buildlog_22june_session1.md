@@ -1,5 +1,5 @@
 Date: June 22
-Duration: 90 minutes
+Duration: 120 minutes
 
 Goal: create the dynamicArray and implement all its functions and start linkedlist at the end of the day
 
@@ -14,4 +14,4 @@ to prevent double deletion and deep copy instead of shallow copy.
 
 Outcome:
 
-created a generic dynamic array template  and implemented all its function.
+created a generic dynamic array template  and start implementing its functions.

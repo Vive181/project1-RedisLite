@@ -285,6 +285,54 @@ src/linkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/src/linkedList.cpp.s
 .PHONY : src/linkedList.cpp.s
 
+src/parser.obj: src/parser.cpp.obj
+.PHONY : src/parser.obj
+
+# target to build an object file
+src/parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj
+.PHONY : src/parser.cpp.obj
+
+src/parser.i: src/parser.cpp.i
+.PHONY : src/parser.i
+
+# target to preprocess a source file
+src/parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/src/parser.cpp.i
+.PHONY : src/parser.cpp.i
+
+src/parser.s: src/parser.cpp.s
+.PHONY : src/parser.s
+
+# target to generate assembly for a file
+src/parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/src/parser.cpp.s
+.PHONY : src/parser.cpp.s
+
+src/redis.obj: src/redis.cpp.obj
+.PHONY : src/redis.obj
+
+# target to build an object file
+src/redis.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj
+.PHONY : src/redis.cpp.obj
+
+src/redis.i: src/redis.cpp.i
+.PHONY : src/redis.i
+
+# target to preprocess a source file
+src/redis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/src/redis.cpp.i
+.PHONY : src/redis.cpp.i
+
+src/redis.s: src/redis.cpp.s
+.PHONY : src/redis.s
+
+# target to generate assembly for a file
+src/redis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/src/redis.cpp.s
+.PHONY : src/redis.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -313,6 +361,12 @@ help:
 	@echo ... src/linkedList.obj
 	@echo ... src/linkedList.i
 	@echo ... src/linkedList.s
+	@echo ... src/parser.obj
+	@echo ... src/parser.i
+	@echo ... src/parser.s
+	@echo ... src/redis.obj
+	@echo ... src/redis.i
+	@echo ... src/redis.s
 .PHONY : help
 
 

@@ -9,6 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/CollectionsLib.dir/src/hashmap.cpp.obj.d"
   "CMakeFiles/CollectionsLib.dir/src/linkedList.cpp.obj"
   "CMakeFiles/CollectionsLib.dir/src/linkedList.cpp.obj.d"
+  "CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj"
+  "CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj.d"
+  "CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj"
+  "CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj.d"
   "libCollectionsLib.a"
   "libCollectionsLib.pdb"
 )

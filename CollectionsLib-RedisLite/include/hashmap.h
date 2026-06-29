@@ -202,7 +202,7 @@ public:
 
 
 
-    bool contains(const Key& key)
+    bool contains(const Key& key) const
     {
         return find(key) != nullptr;
     }

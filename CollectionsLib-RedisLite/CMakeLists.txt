@@ -9,6 +9,8 @@ add_library(CollectionsLib STATIC
     src/doublylinkedList.cpp
     src/hash.cpp
     src/hashmap.cpp
+    src/redis.cpp
+    src/parser.cpp
 )
 
 # 2. Tell the library where to find its headers (like CollectionsLib.h and others)

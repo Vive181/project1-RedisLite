@@ -87,12 +87,12 @@ clean: CMakeFiles/test_app.dir/clean
 CMakeFiles/CollectionsLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CollectionsLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target CollectionsLib"
 .PHONY : CMakeFiles/CollectionsLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CollectionsLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CollectionsLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
 .PHONY : CMakeFiles/CollectionsLib.dir/rule
@@ -104,7 +104,7 @@ CollectionsLib: CMakeFiles/CollectionsLib.dir/rule
 # codegen rule for target.
 CMakeFiles/CollectionsLib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target CollectionsLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target CollectionsLib"
 .PHONY : CMakeFiles/CollectionsLib.dir/codegen
 
 # clean rule for target.
@@ -119,12 +119,12 @@ CMakeFiles/CollectionsLib.dir/clean:
 CMakeFiles/test_app.dir/all: CMakeFiles/CollectionsLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_app.dir\build.make CMakeFiles/test_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_app.dir\build.make CMakeFiles/test_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=7,8 "Built target test_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=9,10 "Built target test_app"
 .PHONY : CMakeFiles/test_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
 .PHONY : CMakeFiles/test_app.dir/rule
@@ -136,7 +136,7 @@ test_app: CMakeFiles/test_app.dir/rule
 # codegen rule for target.
 CMakeFiles/test_app.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_app.dir\build.make CMakeFiles/test_app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=7,8 "Finished codegen for target test_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=9,10 "Finished codegen for target test_app"
 .PHONY : CMakeFiles/test_app.dir/codegen
 
 # clean rule for target.

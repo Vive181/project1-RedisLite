@@ -146,13 +146,45 @@ CMakeFiles/CollectionsLib.dir/src/hashmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CollectionsLib.dir/src/hashmap.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\RedisLite\CollectionsLib-RedisLite\src\hashmap.cpp -o CMakeFiles\CollectionsLib.dir\src\hashmap.cpp.s
 
+CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj: CMakeFiles/CollectionsLib.dir/flags.make
+CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj: CMakeFiles/CollectionsLib.dir/includes_CXX.rsp
+CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj: D:/projects/RedisLite/CollectionsLib-RedisLite/src/redis.cpp
+CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj: CMakeFiles/CollectionsLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj -MF CMakeFiles\CollectionsLib.dir\src\redis.cpp.obj.d -o CMakeFiles\CollectionsLib.dir\src\redis.cpp.obj -c D:\projects\RedisLite\CollectionsLib-RedisLite\src\redis.cpp
+
+CMakeFiles/CollectionsLib.dir/src/redis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CollectionsLib.dir/src/redis.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\RedisLite\CollectionsLib-RedisLite\src\redis.cpp > CMakeFiles\CollectionsLib.dir\src\redis.cpp.i
+
+CMakeFiles/CollectionsLib.dir/src/redis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CollectionsLib.dir/src/redis.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\RedisLite\CollectionsLib-RedisLite\src\redis.cpp -o CMakeFiles\CollectionsLib.dir\src\redis.cpp.s
+
+CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj: CMakeFiles/CollectionsLib.dir/flags.make
+CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj: CMakeFiles/CollectionsLib.dir/includes_CXX.rsp
+CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj: D:/projects/RedisLite/CollectionsLib-RedisLite/src/parser.cpp
+CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj: CMakeFiles/CollectionsLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj -MF CMakeFiles\CollectionsLib.dir\src\parser.cpp.obj.d -o CMakeFiles\CollectionsLib.dir\src\parser.cpp.obj -c D:\projects\RedisLite\CollectionsLib-RedisLite\src\parser.cpp
+
+CMakeFiles/CollectionsLib.dir/src/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CollectionsLib.dir/src/parser.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\RedisLite\CollectionsLib-RedisLite\src\parser.cpp > CMakeFiles\CollectionsLib.dir\src\parser.cpp.i
+
+CMakeFiles/CollectionsLib.dir/src/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CollectionsLib.dir/src/parser.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\RedisLite\CollectionsLib-RedisLite\src\parser.cpp -o CMakeFiles\CollectionsLib.dir\src\parser.cpp.s
+
 # Object files for target CollectionsLib
 CollectionsLib_OBJECTS = \
 "CMakeFiles/CollectionsLib.dir/src/dynamicArray.cpp.obj" \
 "CMakeFiles/CollectionsLib.dir/src/linkedList.cpp.obj" \
 "CMakeFiles/CollectionsLib.dir/src/doublylinkedList.cpp.obj" \
 "CMakeFiles/CollectionsLib.dir/src/hash.cpp.obj" \
-"CMakeFiles/CollectionsLib.dir/src/hashmap.cpp.obj"
+"CMakeFiles/CollectionsLib.dir/src/hashmap.cpp.obj" \
+"CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj" \
+"CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj"
 
 # External object files for target CollectionsLib
 CollectionsLib_EXTERNAL_OBJECTS =
@@ -162,9 +194,11 @@ libCollectionsLib.a: CMakeFiles/CollectionsLib.dir/src/linkedList.cpp.obj
 libCollectionsLib.a: CMakeFiles/CollectionsLib.dir/src/doublylinkedList.cpp.obj
 libCollectionsLib.a: CMakeFiles/CollectionsLib.dir/src/hash.cpp.obj
 libCollectionsLib.a: CMakeFiles/CollectionsLib.dir/src/hashmap.cpp.obj
+libCollectionsLib.a: CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj
+libCollectionsLib.a: CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj
 libCollectionsLib.a: CMakeFiles/CollectionsLib.dir/build.make
 libCollectionsLib.a: CMakeFiles/CollectionsLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libCollectionsLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libCollectionsLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\CollectionsLib.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CollectionsLib.dir\link.txt --verbose=$(VERBOSE)
 

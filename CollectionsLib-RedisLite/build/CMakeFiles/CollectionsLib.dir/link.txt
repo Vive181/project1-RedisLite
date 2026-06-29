@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc libCollectionsLib.a CMakeFiles/CollectionsLib.dir/src/dynamicArray.cpp.obj CMakeFiles/CollectionsLib.dir/src/linkedList.cpp.obj CMakeFiles/CollectionsLib.dir/src/doublylinkedList.cpp.obj CMakeFiles/CollectionsLib.dir/src/hash.cpp.obj CMakeFiles/CollectionsLib.dir/src/hashmap.cpp.obj
+C:\MinGW\bin\ar.exe qc libCollectionsLib.a CMakeFiles/CollectionsLib.dir/src/dynamicArray.cpp.obj CMakeFiles/CollectionsLib.dir/src/linkedList.cpp.obj CMakeFiles/CollectionsLib.dir/src/doublylinkedList.cpp.obj CMakeFiles/CollectionsLib.dir/src/hash.cpp.obj CMakeFiles/CollectionsLib.dir/src/hashmap.cpp.obj CMakeFiles/CollectionsLib.dir/src/redis.cpp.obj CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj
 C:\MinGW\bin\ranlib.exe libCollectionsLib.a

@@ -18,7 +18,8 @@ every day.
 
 Section 4 — Code Reference: Commit hash, filename, and relevant line numbers.
 
-Section 5 — Learning Reflection: i learned the low level architecture of dynamicArray like 
+Section 5 — Learning Reflection:
+ i learned the low level architecture of dynamicArray like 
 allocation and deallocation of heap memory with the help of malloc and placement new  operator
 for calling default constructors and i also learn how to deallocate memory when multidimensional
 array is there and also research on how bitfields works.

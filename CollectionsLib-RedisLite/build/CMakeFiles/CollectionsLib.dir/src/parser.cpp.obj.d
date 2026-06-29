@@ -1,5 +1,5 @@
-CMakeFiles/test_app.dir/main.cpp.obj: \
- D:\projects\RedisLite\CollectionsLib-RedisLite\main.cpp \
+CMakeFiles/CollectionsLib.dir/src/parser.cpp.obj: \
+ D:\projects\RedisLite\CollectionsLib-RedisLite\src\parser.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -100,6 +100,8 @@ CMakeFiles/test_app.dir/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
  D:/projects/RedisLite/CollectionsLib-RedisLite/include/parser.h \
  D:/projects/RedisLite/CollectionsLib-RedisLite/include/Redis.h \
  D:/projects/RedisLite/CollectionsLib-RedisLite/include/HashMap.h \
@@ -110,5 +112,4 @@ CMakeFiles/test_app.dir/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_relops.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstddef \
- D:/projects/RedisLite/CollectionsLib-RedisLite/include/Redis.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstddef

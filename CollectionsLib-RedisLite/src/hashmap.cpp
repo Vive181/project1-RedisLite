@@ -1,8 +1,9 @@
-#include <functional>
-#include <cstddef>
+#include <functional> //need to compute hash value
+#include <cstddef> //provides size_t
 #include <string>
-#ifndef HASHMAP_CPP 
-#define HASHMAP_CPP
+#ifndef HASHMAP_CPP //checks is the file defined already if yes then it include it first time.
+#define HASHMAP_CPP //if not defined then define it
+//header guards prevent error redefination of class
 
 template<typename T>
 struct Hash
@@ -31,7 +32,7 @@ private:
         Node* next;
 
         Node(const Key& k, const Value& v)
-            : key(k), value(v), next(nullptr)
+            : key(k), value(v), next(nullptr)   //This is called a member initializer list.
         {}
     };
 
@@ -98,7 +99,7 @@ public:
         currentSize = 0;
 
 
-        buckets = new Node*[bucketCount];
+        buckets = new Node*[bucketCount]; //Initially these pointers contain garbage values.
 
 
         for(int i = 0; i < bucketCount; i++)
@@ -126,10 +127,11 @@ public:
         }
 
 
-        int index = Hash<Key>::hash(key) % bucketCount;
+        int index = Hash<Key>::hash(key) % bucketCount; //hash function returns hash code here
 
 
         Node* current = buckets[index];
+
 
 
         while(current)
@@ -157,7 +159,7 @@ public:
 
 
 
-    Value* find(const Key& key)
+    Value* find(const Key& key) 
     {
         int index = Hash<Key>::hash(key) % bucketCount;
 
@@ -207,11 +209,10 @@ public:
 
 
 
-    bool contains(const Key& key)
+    bool contains(const Key& key) const
     {
         return find(key) != nullptr;
     }
-
 
 
     bool remove(const Key& key)
@@ -295,3 +296,5 @@ public:
     }
 };
 #endif // HASHMAP_CPP
+//after defining compiler reads the entire file until endif because the compiler must have to
+//know where did the ifdef ended.

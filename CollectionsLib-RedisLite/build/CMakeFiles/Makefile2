@@ -64,21 +64,102 @@ CMAKE_BINARY_DIR = D:\projects\RedisLite\CollectionsLib-RedisLite\build
 # The main recursive "all" target.
 all: CMakeFiles/CollectionsLib.dir/all
 all: CMakeFiles/test_app.dir/all
+all: CMakeFiles/dynamic_array_test.dir/all
+all: CMakeFiles/parser_test.dir/all
+all: CMakeFiles/linkedlist_test.dir/all
+all: CMakeFiles/doublylinkedlist_test.dir/all
+all: _deps/googletest-build/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/CollectionsLib.dir/codegen
 codegen: CMakeFiles/test_app.dir/codegen
+codegen: CMakeFiles/dynamic_array_test.dir/codegen
+codegen: CMakeFiles/parser_test.dir/codegen
+codegen: CMakeFiles/linkedlist_test.dir/codegen
+codegen: CMakeFiles/doublylinkedlist_test.dir/codegen
+codegen: _deps/googletest-build/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: _deps/googletest-build/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/CollectionsLib.dir/clean
 clean: CMakeFiles/test_app.dir/clean
+clean: CMakeFiles/dynamic_array_test.dir/clean
+clean: CMakeFiles/parser_test.dir/clean
+clean: CMakeFiles/linkedlist_test.dir/clean
+clean: CMakeFiles/doublylinkedlist_test.dir/clean
+clean: _deps/googletest-build/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory _deps/googletest-build
+
+# Recursive "all" directory target.
+_deps/googletest-build/all: _deps/googletest-build/googlemock/all
+.PHONY : _deps/googletest-build/all
+
+# Recursive "codegen" directory target.
+_deps/googletest-build/codegen: _deps/googletest-build/googlemock/codegen
+.PHONY : _deps/googletest-build/codegen
+
+# Recursive "preinstall" directory target.
+_deps/googletest-build/preinstall: _deps/googletest-build/googlemock/preinstall
+.PHONY : _deps/googletest-build/preinstall
+
+# Recursive "clean" directory target.
+_deps/googletest-build/clean: _deps/googletest-build/googlemock/clean
+.PHONY : _deps/googletest-build/clean
+
+#=============================================================================
+# Directory level rules for directory _deps/googletest-build/googlemock
+
+# Recursive "all" directory target.
+_deps/googletest-build/googlemock/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
+_deps/googletest-build/googlemock/all: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
+_deps/googletest-build/googlemock/all: _deps/googletest-build/googlemock/gtest/all
+.PHONY : _deps/googletest-build/googlemock/all
+
+# Recursive "codegen" directory target.
+_deps/googletest-build/googlemock/codegen: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
+_deps/googletest-build/googlemock/codegen: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
+_deps/googletest-build/googlemock/codegen: _deps/googletest-build/googlemock/gtest/codegen
+.PHONY : _deps/googletest-build/googlemock/codegen
+
+# Recursive "preinstall" directory target.
+_deps/googletest-build/googlemock/preinstall: _deps/googletest-build/googlemock/gtest/preinstall
+.PHONY : _deps/googletest-build/googlemock/preinstall
+
+# Recursive "clean" directory target.
+_deps/googletest-build/googlemock/clean: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean
+_deps/googletest-build/googlemock/clean: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean
+_deps/googletest-build/googlemock/clean: _deps/googletest-build/googlemock/gtest/clean
+.PHONY : _deps/googletest-build/googlemock/clean
+
+#=============================================================================
+# Directory level rules for directory _deps/googletest-build/googlemock/gtest
+
+# Recursive "all" directory target.
+_deps/googletest-build/googlemock/gtest/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+_deps/googletest-build/googlemock/gtest/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+.PHONY : _deps/googletest-build/googlemock/gtest/all
+
+# Recursive "codegen" directory target.
+_deps/googletest-build/googlemock/gtest/codegen: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/codegen
+_deps/googletest-build/googlemock/gtest/codegen: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/codegen
+.PHONY : _deps/googletest-build/googlemock/gtest/codegen
+
+# Recursive "preinstall" directory target.
+_deps/googletest-build/googlemock/gtest/preinstall:
+.PHONY : _deps/googletest-build/googlemock/gtest/preinstall
+
+# Recursive "clean" directory target.
+_deps/googletest-build/googlemock/gtest/clean: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/clean
+_deps/googletest-build/googlemock/gtest/clean: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
+.PHONY : _deps/googletest-build/googlemock/gtest/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CollectionsLib.dir
@@ -119,7 +200,7 @@ CMakeFiles/CollectionsLib.dir/clean:
 CMakeFiles/test_app.dir/all: CMakeFiles/CollectionsLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_app.dir\build.make CMakeFiles/test_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_app.dir\build.make CMakeFiles/test_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=9,10 "Built target test_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=25,26 "Built target test_app"
 .PHONY : CMakeFiles/test_app.dir/all
 
 # Build rule for subdir invocation for target.
@@ -136,13 +217,278 @@ test_app: CMakeFiles/test_app.dir/rule
 # codegen rule for target.
 CMakeFiles/test_app.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_app.dir\build.make CMakeFiles/test_app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=9,10 "Finished codegen for target test_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=25,26 "Finished codegen for target test_app"
 .PHONY : CMakeFiles/test_app.dir/codegen
 
 # clean rule for target.
 CMakeFiles/test_app.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_app.dir\build.make CMakeFiles/test_app.dir/clean
 .PHONY : CMakeFiles/test_app.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dynamic_array_test.dir
+
+# All Build rule for target.
+CMakeFiles/dynamic_array_test.dir/all: CMakeFiles/CollectionsLib.dir/all
+CMakeFiles/dynamic_array_test.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/dynamic_array_test.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=11,12 "Built target dynamic_array_test"
+.PHONY : CMakeFiles/dynamic_array_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dynamic_array_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dynamic_array_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
+.PHONY : CMakeFiles/dynamic_array_test.dir/rule
+
+# Convenience name for target.
+dynamic_array_test: CMakeFiles/dynamic_array_test.dir/rule
+.PHONY : dynamic_array_test
+
+# codegen rule for target.
+CMakeFiles/dynamic_array_test.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=11,12 "Finished codegen for target dynamic_array_test"
+.PHONY : CMakeFiles/dynamic_array_test.dir/codegen
+
+# clean rule for target.
+CMakeFiles/dynamic_array_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/clean
+.PHONY : CMakeFiles/dynamic_array_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/parser_test.dir
+
+# All Build rule for target.
+CMakeFiles/parser_test.dir/all: CMakeFiles/CollectionsLib.dir/all
+CMakeFiles/parser_test.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/parser_test.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=23,24 "Built target parser_test"
+.PHONY : CMakeFiles/parser_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/parser_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/parser_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
+.PHONY : CMakeFiles/parser_test.dir/rule
+
+# Convenience name for target.
+parser_test: CMakeFiles/parser_test.dir/rule
+.PHONY : parser_test
+
+# codegen rule for target.
+CMakeFiles/parser_test.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=23,24 "Finished codegen for target parser_test"
+.PHONY : CMakeFiles/parser_test.dir/codegen
+
+# clean rule for target.
+CMakeFiles/parser_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/clean
+.PHONY : CMakeFiles/parser_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/linkedlist_test.dir
+
+# All Build rule for target.
+CMakeFiles/linkedlist_test.dir/all: CMakeFiles/CollectionsLib.dir/all
+CMakeFiles/linkedlist_test.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/linkedlist_test.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist_test.dir\build.make CMakeFiles/linkedlist_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist_test.dir\build.make CMakeFiles/linkedlist_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=21,22 "Built target linkedlist_test"
+.PHONY : CMakeFiles/linkedlist_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/linkedlist_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/linkedlist_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
+.PHONY : CMakeFiles/linkedlist_test.dir/rule
+
+# Convenience name for target.
+linkedlist_test: CMakeFiles/linkedlist_test.dir/rule
+.PHONY : linkedlist_test
+
+# codegen rule for target.
+CMakeFiles/linkedlist_test.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist_test.dir\build.make CMakeFiles/linkedlist_test.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=21,22 "Finished codegen for target linkedlist_test"
+.PHONY : CMakeFiles/linkedlist_test.dir/codegen
+
+# clean rule for target.
+CMakeFiles/linkedlist_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist_test.dir\build.make CMakeFiles/linkedlist_test.dir/clean
+.PHONY : CMakeFiles/linkedlist_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/doublylinkedlist_test.dir
+
+# All Build rule for target.
+CMakeFiles/doublylinkedlist_test.dir/all: CMakeFiles/CollectionsLib.dir/all
+CMakeFiles/doublylinkedlist_test.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/doublylinkedlist_test.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\doublylinkedlist_test.dir\build.make CMakeFiles/doublylinkedlist_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\doublylinkedlist_test.dir\build.make CMakeFiles/doublylinkedlist_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=9,10 "Built target doublylinkedlist_test"
+.PHONY : CMakeFiles/doublylinkedlist_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/doublylinkedlist_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/doublylinkedlist_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
+.PHONY : CMakeFiles/doublylinkedlist_test.dir/rule
+
+# Convenience name for target.
+doublylinkedlist_test: CMakeFiles/doublylinkedlist_test.dir/rule
+.PHONY : doublylinkedlist_test
+
+# codegen rule for target.
+CMakeFiles/doublylinkedlist_test.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\doublylinkedlist_test.dir\build.make CMakeFiles/doublylinkedlist_test.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=9,10 "Finished codegen for target doublylinkedlist_test"
+.PHONY : CMakeFiles/doublylinkedlist_test.dir/codegen
+
+# clean rule for target.
+CMakeFiles/doublylinkedlist_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\doublylinkedlist_test.dir\build.make CMakeFiles/doublylinkedlist_test.dir/clean
+.PHONY : CMakeFiles/doublylinkedlist_test.dir/clean
+
+#=============================================================================
+# Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
+
+# All Build rule for target.
+_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=13,14 "Built target gmock"
+.PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
+
+# Build rule for subdir invocation for target.
+_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
+.PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
+
+# Convenience name for target.
+gmock: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
+.PHONY : gmock
+
+# codegen rule for target.
+_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=13,14 "Finished codegen for target gmock"
+.PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
+
+# clean rule for target.
+_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean
+.PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean
+
+#=============================================================================
+# Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
+
+# All Build rule for target.
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=15,16 "Built target gmock_main"
+.PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
+
+# Build rule for subdir invocation for target.
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
+.PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
+
+# Convenience name for target.
+gmock_main: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
+.PHONY : gmock_main
+
+# codegen rule for target.
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=15,16 "Finished codegen for target gmock_main"
+.PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
+
+# clean rule for target.
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean
+.PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean
+
+#=============================================================================
+# Target rules for target _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir
+
+# All Build rule for target.
+_deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/depend
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=17,18 "Built target gtest"
+.PHONY : _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+
+# Build rule for subdir invocation for target.
+_deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
+.PHONY : _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/rule
+.PHONY : gtest
+
+# codegen rule for target.
+_deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=17,18 "Finished codegen for target gtest"
+.PHONY : _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/codegen
+
+# clean rule for target.
+_deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/clean
+.PHONY : _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir
+
+# All Build rule for target.
+_deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=19,20 "Built target gtest_main"
+.PHONY : _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+
+# Build rule for subdir invocation for target.
+_deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles 0
+.PHONY : _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
+
+# Convenience name for target.
+gtest_main: _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
+.PHONY : gtest_main
+
+# codegen rule for target.
+_deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\RedisLite\CollectionsLib-RedisLite\build\CMakeFiles --progress-num=19,20 "Finished codegen for target gtest_main"
+.PHONY : _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/codegen
+
+# clean rule for target.
+_deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
+.PHONY : _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

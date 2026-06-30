@@ -64,6 +64,16 @@ CMAKE_BINARY_DIR = D:\projects\RedisLite\CollectionsLib-RedisLite\build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	"C:\Program Files\CMake\bin\ctest.exe" $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -83,6 +93,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -140,6 +195,110 @@ test_app: cmake_check_build_system
 test_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_app.dir\build.make CMakeFiles/test_app.dir/build
 .PHONY : test_app/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_array_test
+
+# Build rule for target.
+dynamic_array_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dynamic_array_test
+.PHONY : dynamic_array_test
+
+# fast build rule for target.
+dynamic_array_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/build
+.PHONY : dynamic_array_test/fast
+
+#=============================================================================
+# Target rules for targets named parser_test
+
+# Build rule for target.
+parser_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 parser_test
+.PHONY : parser_test
+
+# fast build rule for target.
+parser_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/build
+.PHONY : parser_test/fast
+
+#=============================================================================
+# Target rules for targets named linkedlist_test
+
+# Build rule for target.
+linkedlist_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linkedlist_test
+.PHONY : linkedlist_test
+
+# fast build rule for target.
+linkedlist_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist_test.dir\build.make CMakeFiles/linkedlist_test.dir/build
+.PHONY : linkedlist_test/fast
+
+#=============================================================================
+# Target rules for targets named doublylinkedlist_test
+
+# Build rule for target.
+doublylinkedlist_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 doublylinkedlist_test
+.PHONY : doublylinkedlist_test
+
+# fast build rule for target.
+doublylinkedlist_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\doublylinkedlist_test.dir\build.make CMakeFiles/doublylinkedlist_test.dir/build
+.PHONY : doublylinkedlist_test/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -333,6 +492,102 @@ src/redis.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CollectionsLib.dir\build.make CMakeFiles/CollectionsLib.dir/src/redis.cpp.s
 .PHONY : src/redis.cpp.s
 
+tests/doublylinkedlisttesting.obj: tests/doublylinkedlisttesting.cpp.obj
+.PHONY : tests/doublylinkedlisttesting.obj
+
+# target to build an object file
+tests/doublylinkedlisttesting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\doublylinkedlist_test.dir\build.make CMakeFiles/doublylinkedlist_test.dir/tests/doublylinkedlisttesting.cpp.obj
+.PHONY : tests/doublylinkedlisttesting.cpp.obj
+
+tests/doublylinkedlisttesting.i: tests/doublylinkedlisttesting.cpp.i
+.PHONY : tests/doublylinkedlisttesting.i
+
+# target to preprocess a source file
+tests/doublylinkedlisttesting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\doublylinkedlist_test.dir\build.make CMakeFiles/doublylinkedlist_test.dir/tests/doublylinkedlisttesting.cpp.i
+.PHONY : tests/doublylinkedlisttesting.cpp.i
+
+tests/doublylinkedlisttesting.s: tests/doublylinkedlisttesting.cpp.s
+.PHONY : tests/doublylinkedlisttesting.s
+
+# target to generate assembly for a file
+tests/doublylinkedlisttesting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\doublylinkedlist_test.dir\build.make CMakeFiles/doublylinkedlist_test.dir/tests/doublylinkedlisttesting.cpp.s
+.PHONY : tests/doublylinkedlisttesting.cpp.s
+
+tests/dynamicArraytesting.obj: tests/dynamicArraytesting.cpp.obj
+.PHONY : tests/dynamicArraytesting.obj
+
+# target to build an object file
+tests/dynamicArraytesting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/tests/dynamicArraytesting.cpp.obj
+.PHONY : tests/dynamicArraytesting.cpp.obj
+
+tests/dynamicArraytesting.i: tests/dynamicArraytesting.cpp.i
+.PHONY : tests/dynamicArraytesting.i
+
+# target to preprocess a source file
+tests/dynamicArraytesting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/tests/dynamicArraytesting.cpp.i
+.PHONY : tests/dynamicArraytesting.cpp.i
+
+tests/dynamicArraytesting.s: tests/dynamicArraytesting.cpp.s
+.PHONY : tests/dynamicArraytesting.s
+
+# target to generate assembly for a file
+tests/dynamicArraytesting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/tests/dynamicArraytesting.cpp.s
+.PHONY : tests/dynamicArraytesting.cpp.s
+
+tests/linkedlist.obj: tests/linkedlist.cpp.obj
+.PHONY : tests/linkedlist.obj
+
+# target to build an object file
+tests/linkedlist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist_test.dir\build.make CMakeFiles/linkedlist_test.dir/tests/linkedlist.cpp.obj
+.PHONY : tests/linkedlist.cpp.obj
+
+tests/linkedlist.i: tests/linkedlist.cpp.i
+.PHONY : tests/linkedlist.i
+
+# target to preprocess a source file
+tests/linkedlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist_test.dir\build.make CMakeFiles/linkedlist_test.dir/tests/linkedlist.cpp.i
+.PHONY : tests/linkedlist.cpp.i
+
+tests/linkedlist.s: tests/linkedlist.cpp.s
+.PHONY : tests/linkedlist.s
+
+# target to generate assembly for a file
+tests/linkedlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist_test.dir\build.make CMakeFiles/linkedlist_test.dir/tests/linkedlist.cpp.s
+.PHONY : tests/linkedlist.cpp.s
+
+tests/parsertesting.obj: tests/parsertesting.cpp.obj
+.PHONY : tests/parsertesting.obj
+
+# target to build an object file
+tests/parsertesting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/tests/parsertesting.cpp.obj
+.PHONY : tests/parsertesting.cpp.obj
+
+tests/parsertesting.i: tests/parsertesting.cpp.i
+.PHONY : tests/parsertesting.i
+
+# target to preprocess a source file
+tests/parsertesting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/tests/parsertesting.cpp.i
+.PHONY : tests/parsertesting.cpp.i
+
+tests/parsertesting.s: tests/parsertesting.cpp.s
+.PHONY : tests/parsertesting.s
+
+# target to generate assembly for a file
+tests/parsertesting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/tests/parsertesting.cpp.s
+.PHONY : tests/parsertesting.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -340,8 +595,21 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... test
 	@echo ... CollectionsLib
+	@echo ... doublylinkedlist_test
+	@echo ... dynamic_array_test
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
+	@echo ... linkedlist_test
+	@echo ... parser_test
 	@echo ... test_app
 	@echo ... main.obj
 	@echo ... main.i
@@ -367,6 +635,18 @@ help:
 	@echo ... src/redis.obj
 	@echo ... src/redis.i
 	@echo ... src/redis.s
+	@echo ... tests/doublylinkedlisttesting.obj
+	@echo ... tests/doublylinkedlisttesting.i
+	@echo ... tests/doublylinkedlisttesting.s
+	@echo ... tests/dynamicArraytesting.obj
+	@echo ... tests/dynamicArraytesting.i
+	@echo ... tests/dynamicArraytesting.s
+	@echo ... tests/linkedlist.obj
+	@echo ... tests/linkedlist.i
+	@echo ... tests/linkedlist.s
+	@echo ... tests/parsertesting.obj
+	@echo ... tests/parsertesting.i
+	@echo ... tests/parsertesting.s
 .PHONY : help
 
 

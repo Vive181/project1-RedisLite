@@ -1,0 +1,5 @@
+if(EXISTS "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test_e3b0c442_tests.cmake")
+  include("D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test_e3b0c442_tests.cmake")
+else()
+  add_test(dynamic_array_test_NOT_BUILT dynamic_array_test_NOT_BUILT)
+endif()

@@ -14,8 +14,8 @@ class LinkedList
         T data;
         Node* next;
 
-        Node(const T& value)
-        {
+        Node(const T& value) //const used bcoz T can refer to temporary values.
+        {                     //also it prevent modifications
             data = value;
             next = nullptr;
         }

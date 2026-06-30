@@ -12,7 +12,7 @@ class DynamicArray
 private:
     T* data;
     int size;
-    int capacity;
+    int capacity;     //resize() is placed in the private section because it is an internal implementation detail of the DynamicArray. Users of the class should not decide when or how the array resizes of the class should manage that automatically.
 
     void resize()
     {
@@ -23,7 +23,7 @@ private:
         for(int i = 0; i < size; i++)
         {
             new (&newData[i]) T(data[i]); // copy construct
-            data[i].~T();                 // destroy old object
+            data[i].~T();                 // destroy old object not work for int
         }
 
         free(data);
@@ -36,7 +36,7 @@ public:
     {
         capacity = 4;  //4 because if we start with lower number then it takes many 
         //resizing and if we use larger number and it occupies a larger memory
-        //when a user insert only 2 elements then rest of the memory
+        //when a user insert only 2 elements then rest of the memory get waste for larger number
         size = 0;
         data = (T*)malloc(capacity*sizeof(T));
 
@@ -53,7 +53,8 @@ public:
         data = nullptr;
     }
     
-    // Copy Constructor
+    // Copy Constructor 
+    //used when arr2 object doesnot exist it creates deep copy
 DynamicArray(const DynamicArray& other)
 {
     size = other.size;
@@ -70,16 +71,17 @@ DynamicArray(const DynamicArray& other)
 // Copy Assignment Operator
 //it is used to assign the value of object that has previous array and copy previous array value into new object
 // that has new array but due to deep copy this array has new heap memory
+//used when another object exist and used to create deep copy
 DynamicArray& operator=(const DynamicArray& other)
 {
-    if(this != &other) //check ob1==ob2
+    if(this != &other) //check ob1==ob2 if shallow copy is there
     {
         for(int i = 0; i < size; i++)
         {
             data[i].~T();
         }
 
-        free(data);
+        free(data); //for int it is not req for string bcoz strings have destructors
 
         size = other.size;
         capacity = other.capacity;
@@ -102,7 +104,7 @@ DynamicArray& operator=(const DynamicArray& other)
             resize();
         }
 
-        new (&data[size]) T(value);   // call string constructor
+        new (&data[size]) T(value);   //create memory object for new assigned value (string object contains points(points to the buffer), size of string and capacity)
         size++;
     }
 

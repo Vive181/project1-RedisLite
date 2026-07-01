@@ -14,6 +14,15 @@ protected:
     }
 };
 
+struct CustomUser {
+    std::string name;
+    int age;
+
+    bool operator==(const CustomUser& other) const {
+        return name == other.name && age == other.age;
+    }
+};
+
 // ==========================================================
 // Fixture for CustomUser
 // ==========================================================
@@ -264,14 +273,6 @@ TEST(DynamicArrayCopyAssignmentTest, CopyAssignmentOverwritesExistingData) {
 // ==========================================
 // 10. Tests for Custom Objects
 // ==========================================
-struct CustomUser {
-    std::string name;
-    int age;
-
-    bool operator==(const CustomUser& other) const {
-        return name == other.name && age == other.age;
-    }
-};
 
 TEST(DynamicArrayCustomTypeTest, CanStoreAndRetrieveObjects) {
     DynamicArray<CustomUser> users;

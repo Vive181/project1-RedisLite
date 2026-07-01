@@ -1,11 +1,12 @@
-Date: June 23
-Duration: 120 minutes
+### Date: June 23
+### Duration: 120 minutes
 
-Goal:
+## Goal:
 
 update the dynamicarray and add malloc for dynamic memory allocation and use placemenet new 
 to call contructor 
-Problem Encountered:
+
+## Problem Encountered:
 
 1. segmentation error occurs i manually manage constructors and destructors to solve this
 
@@ -17,16 +18,17 @@ Problem Encountered:
 that inherits but the problem encountered here that when child class object is made then parent class object also allocates memory that creates memory leakage so i solve this problem
 by writing them separately
 
-What I Tried:
+## What I Tried:
 
 Today i try how to solve the problem when array inside array is passed in template 
 how to make destructor delete the memory of all elements in both arrays.
 
-Outcome:
+## Outcome:
+
 Successfully built a working dynamic array supporting all required operations:
 
-push_back and pop_back work correctly with resizing support
-get and set safely access elements with boundary checks
-display prints all valid elements
-getSize, isEmpty, and clear correctly reflect array state
-Gained a clearer understanding of manual memory management and dynamic resizing logic.
+-push_back and pop_back work correctly with resizing support
+-get and set safely access elements with boundary checks
+-display prints all valid elements
+-getSize, isEmpty, and clear correctly reflect array state
+-Gained a clearer understanding of manual memory management and dynamic resizing logic.

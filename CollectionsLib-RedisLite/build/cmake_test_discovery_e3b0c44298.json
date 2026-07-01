@@ -1,157 +1,30 @@
 {
-  "tests": 21,
+  "tests": 4,
   "name": "AllTests",
   "testsuites": [
     {
-      "name": "DoublyLinkedListInsertTest",
-      "tests": 3,
+      "name": "RedisTest",
+      "tests": 4,
       "testsuite": [
         {
-          "name": "InsertBackOnEmptyList",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 30
+          "name": "PrimitiveTypes",
+          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\redislitetesting.cpp",
+          "line": 33
         },
         {
-          "name": "InsertBackMaintainsCorrectOrder",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 37
+          "name": "IntegerEdgeCases",
+          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\redislitetesting.cpp",
+          "line": 48
         },
         {
-          "name": "InsertBackIncreasesSize",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 47
-        }
-      ]
-    },
-    {
-      "name": "DoublyLinkedListTest",
-      "tests": 10,
-      "testsuite": [
-        {
-          "name": "GetRetrievesCorrectElement",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 58
+          "name": "UserDefinedType",
+          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\redislitetesting.cpp",
+          "line": 59
         },
         {
-          "name": "GetOutOfBoundsThrowsException",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 64
-        },
-        {
-          "name": "SetModifiesExistingElement",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 77
-        },
-        {
-          "name": "SetOutOfBoundsThrowsException",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 84
-        },
-        {
-          "name": "RemoveExistingElementReturnsTrueAndReducesSize",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 97
-        },
-        {
-          "name": "RemoveNonExistingElementReturnsFalse",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 104
-        },
-        {
-          "name": "GetSizeReturnsCorrectCount",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 125
-        },
-        {
-          "name": "GetSizeIsZeroAfterClear",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 129
-        },
-        {
-          "name": "ClearEmptiesPopulatedList",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 137
-        },
-        {
-          "name": "ClearAllowsSubsequentInserts",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 149
-        }
-      ]
-    },
-    {
-      "name": "DoublyLinkedListGetTest",
-      "tests": 1,
-      "testsuite": [
-        {
-          "name": "GetOnEmptyListThrowsException",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 69
-        }
-      ]
-    },
-    {
-      "name": "DoublyLinkedListSetTest",
-      "tests": 1,
-      "testsuite": [
-        {
-          "name": "SetOnEmptyListThrowsException",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 89
-        }
-      ]
-    },
-    {
-      "name": "DoublyLinkedListRemoveTest",
-      "tests": 1,
-      "testsuite": [
-        {
-          "name": "RemoveOnEmptyListReturnsFalse",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 110
-        }
-      ]
-    },
-    {
-      "name": "DoublyLinkedListSizeTest",
-      "tests": 1,
-      "testsuite": [
-        {
-          "name": "GetSizeIsZeroForNewList",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 120
-        }
-      ]
-    },
-    {
-      "name": "DoublyLinkedListClearTest",
-      "tests": 1,
-      "testsuite": [
-        {
-          "name": "ClearOnEmptyListDoesNotCrash",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 143
-        }
-      ]
-    },
-    {
-      "name": "DoublyLinkedListCustomTypeTest",
-      "tests": 3,
-      "testsuite": [
-        {
-          "name": "CanStoreAndRetrieveObjects",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 159
-        },
-        {
-          "name": "ObjectsCanBeRemoved",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 174
-        },
-        {
-          "name": "SetWorksWithCustomObjects",
-          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\doublylinkedlisttesting.cpp",
-          "line": 190
+          "name": "MixedOperations",
+          "file": "D:\\projects\\RedisLite\\CollectionsLib-RedisLite\\tests\\redislitetesting.cpp",
+          "line": 74
         }
       ]
     }

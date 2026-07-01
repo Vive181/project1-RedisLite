@@ -4,9 +4,11 @@
 
 The main objective for today was to integrate Google Test into the CollectionsLib-RedisLite project and build a comprehensive unit testing framework for the implemented data structures. The focus was on validating the correctness, exception handling, template support, and memory behavior of the following components:
 
-1.Dynamic Array
-2.Singly Linked List
-3.Doubly Linked List
+1. Dynamic Array
+
+2. Singly Linked List
+
+3. Doubly Linked List
 
 ## section 2 : What I Performed
 

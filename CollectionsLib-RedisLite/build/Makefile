@@ -249,6 +249,32 @@ doublylinkedlist_test/fast:
 .PHONY : doublylinkedlist_test/fast
 
 #=============================================================================
+# Target rules for targets named hashmap_test
+
+# Build rule for target.
+hashmap_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hashmap_test
+.PHONY : hashmap_test
+
+# fast build rule for target.
+hashmap_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hashmap_test.dir\build.make CMakeFiles/hashmap_test.dir/build
+.PHONY : hashmap_test/fast
+
+#=============================================================================
+# Target rules for targets named redis_test
+
+# Build rule for target.
+redis_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 redis_test
+.PHONY : redis_test
+
+# fast build rule for target.
+redis_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\redis_test.dir\build.make CMakeFiles/redis_test.dir/build
+.PHONY : redis_test/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -540,6 +566,30 @@ tests/dynamicArraytesting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamic_array_test.dir\build.make CMakeFiles/dynamic_array_test.dir/tests/dynamicArraytesting.cpp.s
 .PHONY : tests/dynamicArraytesting.cpp.s
 
+tests/hashmaptesting.obj: tests/hashmaptesting.cpp.obj
+.PHONY : tests/hashmaptesting.obj
+
+# target to build an object file
+tests/hashmaptesting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hashmap_test.dir\build.make CMakeFiles/hashmap_test.dir/tests/hashmaptesting.cpp.obj
+.PHONY : tests/hashmaptesting.cpp.obj
+
+tests/hashmaptesting.i: tests/hashmaptesting.cpp.i
+.PHONY : tests/hashmaptesting.i
+
+# target to preprocess a source file
+tests/hashmaptesting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hashmap_test.dir\build.make CMakeFiles/hashmap_test.dir/tests/hashmaptesting.cpp.i
+.PHONY : tests/hashmaptesting.cpp.i
+
+tests/hashmaptesting.s: tests/hashmaptesting.cpp.s
+.PHONY : tests/hashmaptesting.s
+
+# target to generate assembly for a file
+tests/hashmaptesting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hashmap_test.dir\build.make CMakeFiles/hashmap_test.dir/tests/hashmaptesting.cpp.s
+.PHONY : tests/hashmaptesting.cpp.s
+
 tests/linkedlist.obj: tests/linkedlist.cpp.obj
 .PHONY : tests/linkedlist.obj
 
@@ -588,6 +638,30 @@ tests/parsertesting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\parser_test.dir\build.make CMakeFiles/parser_test.dir/tests/parsertesting.cpp.s
 .PHONY : tests/parsertesting.cpp.s
 
+tests/redislitetesting.obj: tests/redislitetesting.cpp.obj
+.PHONY : tests/redislitetesting.obj
+
+# target to build an object file
+tests/redislitetesting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\redis_test.dir\build.make CMakeFiles/redis_test.dir/tests/redislitetesting.cpp.obj
+.PHONY : tests/redislitetesting.cpp.obj
+
+tests/redislitetesting.i: tests/redislitetesting.cpp.i
+.PHONY : tests/redislitetesting.i
+
+# target to preprocess a source file
+tests/redislitetesting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\redis_test.dir\build.make CMakeFiles/redis_test.dir/tests/redislitetesting.cpp.i
+.PHONY : tests/redislitetesting.cpp.i
+
+tests/redislitetesting.s: tests/redislitetesting.cpp.s
+.PHONY : tests/redislitetesting.s
+
+# target to generate assembly for a file
+tests/redislitetesting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\redis_test.dir\build.make CMakeFiles/redis_test.dir/tests/redislitetesting.cpp.s
+.PHONY : tests/redislitetesting.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -608,8 +682,10 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... hashmap_test
 	@echo ... linkedlist_test
 	@echo ... parser_test
+	@echo ... redis_test
 	@echo ... test_app
 	@echo ... main.obj
 	@echo ... main.i
@@ -641,12 +717,18 @@ help:
 	@echo ... tests/dynamicArraytesting.obj
 	@echo ... tests/dynamicArraytesting.i
 	@echo ... tests/dynamicArraytesting.s
+	@echo ... tests/hashmaptesting.obj
+	@echo ... tests/hashmaptesting.i
+	@echo ... tests/hashmaptesting.s
 	@echo ... tests/linkedlist.obj
 	@echo ... tests/linkedlist.i
 	@echo ... tests/linkedlist.s
 	@echo ... tests/parsertesting.obj
 	@echo ... tests/parsertesting.i
 	@echo ... tests/parsertesting.s
+	@echo ... tests/redislitetesting.obj
+	@echo ... tests/redislitetesting.i
+	@echo ... tests/redislitetesting.s
 .PHONY : help
 
 

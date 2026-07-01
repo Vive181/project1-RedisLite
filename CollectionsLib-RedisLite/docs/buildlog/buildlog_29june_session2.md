@@ -1,19 +1,20 @@
-Date: June 29
+### Date: June 29
 
-Duration: 180 minutes
+### Duration: 180 minutes
 
-Goal:
+## Goal:
 
-Learn the Google Test (GTest) framework, understand its syntax and components,
 
-Problem Encountered:
+Learn the Google Test (GTest) framework, understand its syntax and components.
+
+## Problem Encountered:
 
 -Initially, I found it difficult to understand the difference between TEST and TEST_F, and how test fixtures work.
 -Google Test failed to compile because the installed MinGW GCC 6.3.0 compiler was incompatible with the downloaded version of GTest.
 -CMake generator conflicts (NMake Makefiles vs. MinGW Makefiles) prevented the project from building correctly.
 -The test executable was not generated until the build configuration and compiler issues were resolved.
 
-What I Tried: 
+## What I Tried: 
 
 -Studied the official Google Test documentation and example test cases.
 -Learned the basic syntax of Google Test, including:
@@ -33,7 +34,7 @@ Test Runner (gtest_main)
 -Investigated compiler compatibility issues and upgraded the build configuration.
 -Resolved the CMake generator conflict by recreating the build directory.
 
-Outcome:
+## Outcome:
 
 -Successfully learned the syntax and overall workflow of the Google Test framework.
 -Gained a clear understanding of the main components of Google Test, including test suites, test cases, fixtures, assertions, and the test runner.

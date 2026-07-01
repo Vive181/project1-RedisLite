@@ -1,6 +1,6 @@
-## Date: June 30
+### Date: June 30
 
-## Duration: 120 minutes
+### Duration: 120 minutes
 
 ## Goal:
 

@@ -1,6 +1,6 @@
-Date: June 26, 2026
+### Date: June 26, 2026
 
-Section 1 — Specific Bug
+### Section 1 — Specific Bug
 
 **Runtime Output:**
 
@@ -12,7 +12,7 @@ The parser accepted the `SET` command even though the value argument was missing
 
 ---
 
-## Section 2 — Failed Attempt
+### Section 2 — Failed Attempt
 
 My first approach was to split the input using `stringstream` and immediately process the command without validating the number of arguments.
 
@@ -28,7 +28,7 @@ To fix this, I tested the parser with multiple valid and invalid inputs and adde
 
 ---
 
-## Section 3 — Memory Diagram
+### Section 3 — Memory Diagram
 
 memory diagram showing how `stringstream` extracts tokens:
 
@@ -40,7 +40,7 @@ Input:
                      |
                      v
 +-----------------------------+
-| SET | name | Uvek |
+| SET | name | Vivek |
 +-----------------------------+
    |      |       |
    v      v       v
@@ -53,7 +53,7 @@ value   = "Uvek"
 
 ---
 
-## Section 4 — Code Reference
+### Section 4 — Code Reference
 
 **Commit Hash:** `<your_git_commit_hash>`
 
@@ -63,6 +63,6 @@ value   = "Uvek"
 
 ---
 
-## Section 5 — Learning Reflection
+### Section 5 — Learning Reflection
 
 Today I learned that parsing is more than splitting a string into words. A parser must also validate whether the input follows the expected command format. I realized that `stringstream` silently fails when tokens are missing, so relying only on extraction is not enough. Every command should verify that the required arguments exist before execution. This understanding will make it easier to connect the parser with the key-value storage in the next stage of the Redis clone.

@@ -1,12 +1,12 @@
-Date: June 22
+### Date: June 22
 
-Duration: 120 minutes
+### Duration: 120 minutes
 
-Goal:
+## Goal:
 
 Understand how dynamic memory allocation works in C++ and begin researching `malloc()` for implementing a custom dynamic array.
 
-Work Completed:
+## Work Completed:
 
 * Started studying the concept of dynamic memory allocation.
 * Researched the purpose and working of the `malloc()` function.
@@ -20,12 +20,12 @@ Problem Encountered:
 
 Initially found it difficult to understand how memory allocation differs between stack and heap, and how `malloc()` only allocates raw memory without initializing objects.
 
-What I Tried:
+## What I Tried:
 
 * Read C++ documentation and online tutorials on dynamic memory allocation.
 * Reviewed examples demonstrating memory allocation and deallocation.
 * Compared static arrays with dynamically allocated arrays to understand their differences.
 
-Outcome:
+## Outcome:
 
 Gained a clear understanding of the purpose of `malloc()`, heap memory allocation, and why dynamic memory management is necessary for building data structures like a custom dynamic array. This research prepared me for implementing manual memory management in the next development phase.

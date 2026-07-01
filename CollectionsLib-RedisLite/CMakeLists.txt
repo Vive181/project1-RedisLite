@@ -64,3 +64,15 @@ gtest_discover_tests(linkedlist_test)
 add_executable(doublylinkedlist_test tests/doublylinkedlisttesting.cpp)
 target_link_libraries(doublylinkedlist_test PRIVATE CollectionsLib gtest_main)
 gtest_discover_tests(doublylinkedlist_test)
+
+# --- HashMap Tests ---
+add_executable(hashmap_test tests/hashmaptesting.cpp)
+target_link_libraries(hashmap_test PRIVATE CollectionsLib gtest_main)
+gtest_discover_tests(hashmap_test)
+
+# --- Redis Tests ---
+add_executable(redis_test tests/redislitetesting.cpp)
+
+target_link_libraries(redis_test PRIVATE CollectionsLib gtest_main)
+
+gtest_discover_tests(redis_test)

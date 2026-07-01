@@ -1,6 +1,6 @@
-Daily Design Journal · 24-06-2026.md
+### Daily Design Journal · 24-06-2026.md
 
-Section 1 — Specific Bug:
+### Section 1 — Specific Bug:
 
  vivek@LAPTOP-8GRHFCJA MINGW64 /d/projects/RedisLite
 $ g++ -std=c++17 src/SuperStructureClass/hashmap.cpp -o hashmap.exe
@@ -35,11 +35,12 @@ src/SuperStructureClass/hashmap.cpp:147:28: error: missing template arguments be
              Hash<Key>::hash(key) % bucketCount;
                             ^.
 
-Section 2 — Failed Attempt: i tried to create a complete hash function but at the end i
-realized it cannot work for objects.
+### Section 2 — Failed Attempt: 
 
-Section 3 — Memory Diagram: 
+i tried to create a complete hash function but at the end i realized it cannot work for objects.
 
-Section 4 — Code Reference: Commit hash, filename, and relevant line numbers.
+### Section 3 — Memory Diagram: 
 
-Section 5 — Learning Reflection: learned how to make a hashmap and almost completed hash function that can work for primitive datatypes.
+### Section 4 — Code Reference: Commit hash, filename, and relevant line numbers.
+
+### Section 5 — Learning Reflection: learned how to make a hashmap and almost completed hash function that can work for primitive datatypes.

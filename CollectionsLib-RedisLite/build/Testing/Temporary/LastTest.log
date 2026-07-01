@@ -1,3 +1,2078 @@
-Start testing: Jun 29 18:02 India Standard Time
+Start testing: Jul 01 10:58 India Standard Time
 ----------------------------------------------------------
-End testing: Jun 29 18:02 India Standard Time
+1/77 Testing: DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray
+1/77 Test: DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray
+[       OK ] DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/77 Testing: DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically
+2/77 Test: DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically
+[       OK ] DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/77 Testing: DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements
+3/77 Test: DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements
+[       OK ] DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/77 Testing: DynamicArrayTest.GetRetrievesCorrectElement
+4/77 Test: DynamicArrayTest.GetRetrievesCorrectElement
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.GetRetrievesCorrectElement" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.GetRetrievesCorrectElement" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.GetRetrievesCorrectElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.GetRetrievesCorrectElement
+[       OK ] DynamicArrayTest.GetRetrievesCorrectElement (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.GetRetrievesCorrectElement" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.GetRetrievesCorrectElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/77 Testing: DynamicArrayTest.GetOutOfBoundsThrowsException
+5/77 Test: DynamicArrayTest.GetOutOfBoundsThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.GetOutOfBoundsThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.GetOutOfBoundsThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.GetOutOfBoundsThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.GetOutOfBoundsThrowsException
+[       OK ] DynamicArrayTest.GetOutOfBoundsThrowsException (7 ms)
+[----------] 1 test from DynamicArrayTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.GetOutOfBoundsThrowsException" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.GetOutOfBoundsThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/77 Testing: DynamicArrayTest.SetModifiesExistingElement
+6/77 Test: DynamicArrayTest.SetModifiesExistingElement
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.SetModifiesExistingElement" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.SetModifiesExistingElement" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.SetModifiesExistingElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.SetModifiesExistingElement
+[       OK ] DynamicArrayTest.SetModifiesExistingElement (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.SetModifiesExistingElement" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.SetModifiesExistingElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/77 Testing: DynamicArrayTest.SetDoesNothingForNegativeIndex
+7/77 Test: DynamicArrayTest.SetDoesNothingForNegativeIndex
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.SetDoesNothingForNegativeIndex" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.SetDoesNothingForNegativeIndex" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.SetDoesNothingForNegativeIndex
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.SetDoesNothingForNegativeIndex
+[       OK ] DynamicArrayTest.SetDoesNothingForNegativeIndex (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.SetDoesNothingForNegativeIndex" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.SetDoesNothingForNegativeIndex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/77 Testing: DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize
+8/77 Test: DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize
+[       OK ] DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/77 Testing: DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement
+9/77 Test: DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement
+[       OK ] DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement (8 ms)
+[----------] 1 test from DynamicArrayTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/77 Testing: DynamicArrayTest.PopBackMultipleTimesEmptiesArray
+10/77 Test: DynamicArrayTest.PopBackMultipleTimesEmptiesArray
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.PopBackMultipleTimesEmptiesArray" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.PopBackMultipleTimesEmptiesArray" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.PopBackMultipleTimesEmptiesArray
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.PopBackMultipleTimesEmptiesArray
+[       OK ] DynamicArrayTest.PopBackMultipleTimesEmptiesArray (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.PopBackMultipleTimesEmptiesArray" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.PopBackMultipleTimesEmptiesArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/77 Testing: DynamicArrayTest.GetSizeIncreasesWithPushBack
+11/77 Test: DynamicArrayTest.GetSizeIncreasesWithPushBack
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.GetSizeIncreasesWithPushBack" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.GetSizeIncreasesWithPushBack" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.GetSizeIncreasesWithPushBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.GetSizeIncreasesWithPushBack
+[       OK ] DynamicArrayTest.GetSizeIncreasesWithPushBack (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.GetSizeIncreasesWithPushBack" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.GetSizeIncreasesWithPushBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/77 Testing: DynamicArrayTest.GetSizeDecreasesWithPopBack
+12/77 Test: DynamicArrayTest.GetSizeDecreasesWithPopBack
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.GetSizeDecreasesWithPopBack" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.GetSizeDecreasesWithPopBack" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.GetSizeDecreasesWithPopBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.GetSizeDecreasesWithPopBack
+[       OK ] DynamicArrayTest.GetSizeDecreasesWithPopBack (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.GetSizeDecreasesWithPopBack" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.GetSizeDecreasesWithPopBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/77 Testing: DynamicArrayTest.IsEmptyFalseAfterPushBack
+13/77 Test: DynamicArrayTest.IsEmptyFalseAfterPushBack
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.IsEmptyFalseAfterPushBack" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.IsEmptyFalseAfterPushBack" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.IsEmptyFalseAfterPushBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.IsEmptyFalseAfterPushBack
+[       OK ] DynamicArrayTest.IsEmptyFalseAfterPushBack (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.IsEmptyFalseAfterPushBack" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.IsEmptyFalseAfterPushBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/77 Testing: DynamicArrayTest.IsEmptyTrueAfterClear
+14/77 Test: DynamicArrayTest.IsEmptyTrueAfterClear
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.IsEmptyTrueAfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.IsEmptyTrueAfterClear" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.IsEmptyTrueAfterClear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.IsEmptyTrueAfterClear
+[       OK ] DynamicArrayTest.IsEmptyTrueAfterClear (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.IsEmptyTrueAfterClear" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.IsEmptyTrueAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/77 Testing: DynamicArrayTest.ClearEmptiesPopulatedArray
+15/77 Test: DynamicArrayTest.ClearEmptiesPopulatedArray
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.ClearEmptiesPopulatedArray" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.ClearEmptiesPopulatedArray" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.ClearEmptiesPopulatedArray
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.ClearEmptiesPopulatedArray
+[       OK ] DynamicArrayTest.ClearEmptiesPopulatedArray (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.ClearEmptiesPopulatedArray" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.ClearEmptiesPopulatedArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/77 Testing: DynamicArrayTest.ClearAllowsSubsequentPushBacks
+16/77 Test: DynamicArrayTest.ClearAllowsSubsequentPushBacks
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.ClearAllowsSubsequentPushBacks" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.ClearAllowsSubsequentPushBacks" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.ClearAllowsSubsequentPushBacks
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.ClearAllowsSubsequentPushBacks
+[       OK ] DynamicArrayTest.ClearAllowsSubsequentPushBacks (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.ClearAllowsSubsequentPushBacks" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.ClearAllowsSubsequentPushBacks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/77 Testing: DynamicArrayTest.CopyConstructorCreatesDeepCopy
+17/77 Test: DynamicArrayTest.CopyConstructorCreatesDeepCopy
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.CopyConstructorCreatesDeepCopy" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.CopyConstructorCreatesDeepCopy" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.CopyConstructorCreatesDeepCopy
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.CopyConstructorCreatesDeepCopy
+[       OK ] DynamicArrayTest.CopyConstructorCreatesDeepCopy (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.CopyConstructorCreatesDeepCopy" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.CopyConstructorCreatesDeepCopy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/77 Testing: DynamicArrayTest.CopyConstructorIndependentScaling
+18/77 Test: DynamicArrayTest.CopyConstructorIndependentScaling
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.CopyConstructorIndependentScaling" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.CopyConstructorIndependentScaling" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.CopyConstructorIndependentScaling
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.CopyConstructorIndependentScaling
+[       OK ] DynamicArrayTest.CopyConstructorIndependentScaling (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.CopyConstructorIndependentScaling" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.CopyConstructorIndependentScaling" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/77 Testing: DynamicArrayTest.CopyAssignmentCreatesDeepCopy
+19/77 Test: DynamicArrayTest.CopyAssignmentCreatesDeepCopy
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.CopyAssignmentCreatesDeepCopy" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.CopyAssignmentCreatesDeepCopy" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.CopyAssignmentCreatesDeepCopy
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.CopyAssignmentCreatesDeepCopy
+[       OK ] DynamicArrayTest.CopyAssignmentCreatesDeepCopy (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.CopyAssignmentCreatesDeepCopy" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.CopyAssignmentCreatesDeepCopy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/77 Testing: DynamicArrayTest.CopyAssignmentHandlesSelfAssignment
+20/77 Test: DynamicArrayTest.CopyAssignmentHandlesSelfAssignment
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayTest.CopyAssignmentHandlesSelfAssignment" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayTest.CopyAssignmentHandlesSelfAssignment" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayTest.CopyAssignmentHandlesSelfAssignment
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayTest
+[ RUN      ] DynamicArrayTest.CopyAssignmentHandlesSelfAssignment
+[       OK ] DynamicArrayTest.CopyAssignmentHandlesSelfAssignment (0 ms)
+[----------] 1 test from DynamicArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayTest.CopyAssignmentHandlesSelfAssignment" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayTest.CopyAssignmentHandlesSelfAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/77 Testing: DynamicArrayGetTest.GetOnEmptyArrayThrowsException
+21/77 Test: DynamicArrayGetTest.GetOnEmptyArrayThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayGetTest.GetOnEmptyArrayThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayGetTest.GetOnEmptyArrayThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayGetTest.GetOnEmptyArrayThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayGetTest
+[ RUN      ] DynamicArrayGetTest.GetOnEmptyArrayThrowsException
+[       OK ] DynamicArrayGetTest.GetOnEmptyArrayThrowsException (8 ms)
+[----------] 1 test from DynamicArrayGetTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayGetTest.GetOnEmptyArrayThrowsException" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayGetTest.GetOnEmptyArrayThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/77 Testing: DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash
+22/77 Test: DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash
+[       OK ] DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/77 Testing: DynamicArraySizeTest.GetSizeIsZeroForNewArray
+23/77 Test: DynamicArraySizeTest.GetSizeIsZeroForNewArray
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArraySizeTest.GetSizeIsZeroForNewArray" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArraySizeTest.GetSizeIsZeroForNewArray" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArraySizeTest.GetSizeIsZeroForNewArray
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArraySizeTest
+[ RUN      ] DynamicArraySizeTest.GetSizeIsZeroForNewArray
+[       OK ] DynamicArraySizeTest.GetSizeIsZeroForNewArray (0 ms)
+[----------] 1 test from DynamicArraySizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArraySizeTest.GetSizeIsZeroForNewArray" end time: Jul 01 10:58 India Standard Time
+"DynamicArraySizeTest.GetSizeIsZeroForNewArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/77 Testing: DynamicArrayEmptyTest.IsEmptyTrueForNewArray
+24/77 Test: DynamicArrayEmptyTest.IsEmptyTrueForNewArray
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayEmptyTest.IsEmptyTrueForNewArray" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayEmptyTest.IsEmptyTrueForNewArray" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayEmptyTest.IsEmptyTrueForNewArray
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayEmptyTest
+[ RUN      ] DynamicArrayEmptyTest.IsEmptyTrueForNewArray
+[       OK ] DynamicArrayEmptyTest.IsEmptyTrueForNewArray (0 ms)
+[----------] 1 test from DynamicArrayEmptyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayEmptyTest.IsEmptyTrueForNewArray" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayEmptyTest.IsEmptyTrueForNewArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/77 Testing: DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash
+25/77 Test: DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayClearTest
+[ RUN      ] DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash
+[       OK ] DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash (0 ms)
+[----------] 1 test from DynamicArrayClearTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/77 Testing: DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks
+26/77 Test: DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCopyConstructorTest
+[ RUN      ] DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks
+[       OK ] DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks (0 ms)
+[----------] 1 test from DynamicArrayCopyConstructorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/77 Testing: DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData
+27/77 Test: DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCopyAssignmentTest
+[ RUN      ] DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData
+[       OK ] DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData (0 ms)
+[----------] 1 test from DynamicArrayCopyAssignmentTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/77 Testing: DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects
+28/77 Test: DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCustomTypeTest
+[ RUN      ] DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects
+[       OK ] DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects (0 ms)
+[----------] 1 test from DynamicArrayCustomTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/77 Testing: DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize
+29/77 Test: DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe" "--gtest_filter=DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCustomTypeTest
+[ RUN      ] DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize
+[       OK ] DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize (1 ms)
+[----------] 1 test from DynamicArrayCustomTypeTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize" end time: Jul 01 10:58 India Standard Time
+"DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/77 Testing: ParserTest.ParseSetCommandSetsValue
+30/77 Test: ParserTest.ParseSetCommandSetsValue
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/parser_test.exe" "--gtest_filter=ParserTest.ParseSetCommandSetsValue" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"ParserTest.ParseSetCommandSetsValue" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ParserTest.ParseSetCommandSetsValue
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserTest
+[ RUN      ] ParserTest.ParseSetCommandSetsValue
+OK
+[       OK ] ParserTest.ParseSetCommandSetsValue (0 ms)
+[----------] 1 test from ParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ParserTest.ParseSetCommandSetsValue" end time: Jul 01 10:58 India Standard Time
+"ParserTest.ParseSetCommandSetsValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/77 Testing: ParserTest.ParseSetCommandOverwritesValue
+31/77 Test: ParserTest.ParseSetCommandOverwritesValue
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/parser_test.exe" "--gtest_filter=ParserTest.ParseSetCommandOverwritesValue" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"ParserTest.ParseSetCommandOverwritesValue" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ParserTest.ParseSetCommandOverwritesValue
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserTest
+[ RUN      ] ParserTest.ParseSetCommandOverwritesValue
+OK
+OK
+[       OK ] ParserTest.ParseSetCommandOverwritesValue (0 ms)
+[----------] 1 test from ParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ParserTest.ParseSetCommandOverwritesValue" end time: Jul 01 10:58 India Standard Time
+"ParserTest.ParseSetCommandOverwritesValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/77 Testing: ParserTest.ParseDelCommandDeletesKey
+32/77 Test: ParserTest.ParseDelCommandDeletesKey
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/parser_test.exe" "--gtest_filter=ParserTest.ParseDelCommandDeletesKey" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"ParserTest.ParseDelCommandDeletesKey" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ParserTest.ParseDelCommandDeletesKey
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserTest
+[ RUN      ] ParserTest.ParseDelCommandDeletesKey
+(integer) 1
+[       OK ] ParserTest.ParseDelCommandDeletesKey (0 ms)
+[----------] 1 test from ParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ParserTest.ParseDelCommandDeletesKey" end time: Jul 01 10:58 India Standard Time
+"ParserTest.ParseDelCommandDeletesKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/77 Testing: ParserTest.ParseIsCaseInsensitiveForCommands
+33/77 Test: ParserTest.ParseIsCaseInsensitiveForCommands
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/parser_test.exe" "--gtest_filter=ParserTest.ParseIsCaseInsensitiveForCommands" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"ParserTest.ParseIsCaseInsensitiveForCommands" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ParserTest.ParseIsCaseInsensitiveForCommands
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserTest
+[ RUN      ] ParserTest.ParseIsCaseInsensitiveForCommands
+OK
+(integer) 1
+[       OK ] ParserTest.ParseIsCaseInsensitiveForCommands (0 ms)
+[----------] 1 test from ParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ParserTest.ParseIsCaseInsensitiveForCommands" end time: Jul 01 10:58 India Standard Time
+"ParserTest.ParseIsCaseInsensitiveForCommands" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/77 Testing: ParserTest.ParseUnknownCommandDoesNotCrash
+34/77 Test: ParserTest.ParseUnknownCommandDoesNotCrash
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/parser_test.exe" "--gtest_filter=ParserTest.ParseUnknownCommandDoesNotCrash" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"ParserTest.ParseUnknownCommandDoesNotCrash" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ParserTest.ParseUnknownCommandDoesNotCrash
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserTest
+[ RUN      ] ParserTest.ParseUnknownCommandDoesNotCrash
+Unknown Command
+[       OK ] ParserTest.ParseUnknownCommandDoesNotCrash (0 ms)
+[----------] 1 test from ParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ParserTest.ParseUnknownCommandDoesNotCrash" end time: Jul 01 10:58 India Standard Time
+"ParserTest.ParseUnknownCommandDoesNotCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/77 Testing: LinkedListInsertTest.InsertFrontOnEmptyList
+35/77 Test: LinkedListInsertTest.InsertFrontOnEmptyList
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListInsertTest.InsertFrontOnEmptyList" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListInsertTest.InsertFrontOnEmptyList" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListInsertTest.InsertFrontOnEmptyList
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InsertFrontOnEmptyList
+[       OK ] LinkedListInsertTest.InsertFrontOnEmptyList (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InsertFrontOnEmptyList" end time: Jul 01 10:58 India Standard Time
+"LinkedListInsertTest.InsertFrontOnEmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/77 Testing: LinkedListInsertTest.InsertFrontMaintainsCorrectOrder
+36/77 Test: LinkedListInsertTest.InsertFrontMaintainsCorrectOrder
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListInsertTest.InsertFrontMaintainsCorrectOrder" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListInsertTest.InsertFrontMaintainsCorrectOrder" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListInsertTest.InsertFrontMaintainsCorrectOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InsertFrontMaintainsCorrectOrder
+[       OK ] LinkedListInsertTest.InsertFrontMaintainsCorrectOrder (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InsertFrontMaintainsCorrectOrder" end time: Jul 01 10:58 India Standard Time
+"LinkedListInsertTest.InsertFrontMaintainsCorrectOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/77 Testing: LinkedListInsertTest.InsertFrontIncreasesSize
+37/77 Test: LinkedListInsertTest.InsertFrontIncreasesSize
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListInsertTest.InsertFrontIncreasesSize" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListInsertTest.InsertFrontIncreasesSize" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListInsertTest.InsertFrontIncreasesSize
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InsertFrontIncreasesSize
+[       OK ] LinkedListInsertTest.InsertFrontIncreasesSize (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InsertFrontIncreasesSize" end time: Jul 01 10:58 India Standard Time
+"LinkedListInsertTest.InsertFrontIncreasesSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/77 Testing: LinkedListTest.GetRetrievesCorrectElement
+38/77 Test: LinkedListTest.GetRetrievesCorrectElement
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.GetRetrievesCorrectElement" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.GetRetrievesCorrectElement" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.GetRetrievesCorrectElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.GetRetrievesCorrectElement
+[       OK ] LinkedListTest.GetRetrievesCorrectElement (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.GetRetrievesCorrectElement" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.GetRetrievesCorrectElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/77 Testing: LinkedListTest.GetOutOfBoundsThrowsException
+39/77 Test: LinkedListTest.GetOutOfBoundsThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.GetOutOfBoundsThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.GetOutOfBoundsThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.GetOutOfBoundsThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.GetOutOfBoundsThrowsException
+[       OK ] LinkedListTest.GetOutOfBoundsThrowsException (8 ms)
+[----------] 1 test from LinkedListTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.GetOutOfBoundsThrowsException" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.GetOutOfBoundsThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/77 Testing: LinkedListTest.SetModifiesExistingElement
+40/77 Test: LinkedListTest.SetModifiesExistingElement
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.SetModifiesExistingElement" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.SetModifiesExistingElement" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.SetModifiesExistingElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.SetModifiesExistingElement
+[       OK ] LinkedListTest.SetModifiesExistingElement (0 ms)
+[----------] 1 test from LinkedListTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.SetModifiesExistingElement" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.SetModifiesExistingElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/77 Testing: LinkedListTest.SetOutOfBoundsThrowsException
+41/77 Test: LinkedListTest.SetOutOfBoundsThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.SetOutOfBoundsThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.SetOutOfBoundsThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.SetOutOfBoundsThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.SetOutOfBoundsThrowsException
+[       OK ] LinkedListTest.SetOutOfBoundsThrowsException (6 ms)
+[----------] 1 test from LinkedListTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.SetOutOfBoundsThrowsException" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.SetOutOfBoundsThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/77 Testing: LinkedListTest.IsEmptyFalseAfterInsert
+42/77 Test: LinkedListTest.IsEmptyFalseAfterInsert
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.IsEmptyFalseAfterInsert" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.IsEmptyFalseAfterInsert" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.IsEmptyFalseAfterInsert
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.IsEmptyFalseAfterInsert
+[       OK ] LinkedListTest.IsEmptyFalseAfterInsert (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.IsEmptyFalseAfterInsert" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.IsEmptyFalseAfterInsert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/77 Testing: LinkedListTest.IsEmptyTrueAfterClear
+43/77 Test: LinkedListTest.IsEmptyTrueAfterClear
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.IsEmptyTrueAfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.IsEmptyTrueAfterClear" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.IsEmptyTrueAfterClear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.IsEmptyTrueAfterClear
+[       OK ] LinkedListTest.IsEmptyTrueAfterClear (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.IsEmptyTrueAfterClear" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.IsEmptyTrueAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/77 Testing: LinkedListTest.GetSizeReturnsCorrectCount
+44/77 Test: LinkedListTest.GetSizeReturnsCorrectCount
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.GetSizeReturnsCorrectCount" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.GetSizeReturnsCorrectCount" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.GetSizeReturnsCorrectCount
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.GetSizeReturnsCorrectCount
+[       OK ] LinkedListTest.GetSizeReturnsCorrectCount (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.GetSizeReturnsCorrectCount" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.GetSizeReturnsCorrectCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/77 Testing: LinkedListTest.GetSizeIsZeroAfterClear
+45/77 Test: LinkedListTest.GetSizeIsZeroAfterClear
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.GetSizeIsZeroAfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.GetSizeIsZeroAfterClear" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.GetSizeIsZeroAfterClear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.GetSizeIsZeroAfterClear
+[       OK ] LinkedListTest.GetSizeIsZeroAfterClear (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.GetSizeIsZeroAfterClear" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.GetSizeIsZeroAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/77 Testing: LinkedListTest.ClearEmptiesPopulatedList
+46/77 Test: LinkedListTest.ClearEmptiesPopulatedList
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.ClearEmptiesPopulatedList" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.ClearEmptiesPopulatedList" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.ClearEmptiesPopulatedList
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.ClearEmptiesPopulatedList
+[       OK ] LinkedListTest.ClearEmptiesPopulatedList (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.ClearEmptiesPopulatedList" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.ClearEmptiesPopulatedList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/77 Testing: LinkedListTest.ClearAllowsSubsequentInserts
+47/77 Test: LinkedListTest.ClearAllowsSubsequentInserts
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListTest.ClearAllowsSubsequentInserts" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListTest.ClearAllowsSubsequentInserts" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListTest.ClearAllowsSubsequentInserts
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.ClearAllowsSubsequentInserts
+[       OK ] LinkedListTest.ClearAllowsSubsequentInserts (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.ClearAllowsSubsequentInserts" end time: Jul 01 10:58 India Standard Time
+"LinkedListTest.ClearAllowsSubsequentInserts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/77 Testing: LinkedListGetTest.GetOnEmptyListThrowsException
+48/77 Test: LinkedListGetTest.GetOnEmptyListThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListGetTest.GetOnEmptyListThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListGetTest.GetOnEmptyListThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListGetTest.GetOnEmptyListThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListGetTest
+[ RUN      ] LinkedListGetTest.GetOnEmptyListThrowsException
+[       OK ] LinkedListGetTest.GetOnEmptyListThrowsException (7 ms)
+[----------] 1 test from LinkedListGetTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListGetTest.GetOnEmptyListThrowsException" end time: Jul 01 10:58 India Standard Time
+"LinkedListGetTest.GetOnEmptyListThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/77 Testing: LinkedListSetTest.SetOnEmptyListThrowsException
+49/77 Test: LinkedListSetTest.SetOnEmptyListThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListSetTest.SetOnEmptyListThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListSetTest.SetOnEmptyListThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListSetTest.SetOnEmptyListThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListSetTest
+[ RUN      ] LinkedListSetTest.SetOnEmptyListThrowsException
+[       OK ] LinkedListSetTest.SetOnEmptyListThrowsException (8 ms)
+[----------] 1 test from LinkedListSetTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListSetTest.SetOnEmptyListThrowsException" end time: Jul 01 10:58 India Standard Time
+"LinkedListSetTest.SetOnEmptyListThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/77 Testing: LinkedListEmptyTest.IsEmptyTrueForNewList
+50/77 Test: LinkedListEmptyTest.IsEmptyTrueForNewList
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListEmptyTest.IsEmptyTrueForNewList" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListEmptyTest.IsEmptyTrueForNewList" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListEmptyTest.IsEmptyTrueForNewList
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListEmptyTest
+[ RUN      ] LinkedListEmptyTest.IsEmptyTrueForNewList
+[       OK ] LinkedListEmptyTest.IsEmptyTrueForNewList (0 ms)
+[----------] 1 test from LinkedListEmptyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListEmptyTest.IsEmptyTrueForNewList" end time: Jul 01 10:58 India Standard Time
+"LinkedListEmptyTest.IsEmptyTrueForNewList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/77 Testing: LinkedListSizeTest.GetSizeIsZeroForNewList
+51/77 Test: LinkedListSizeTest.GetSizeIsZeroForNewList
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListSizeTest.GetSizeIsZeroForNewList" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListSizeTest.GetSizeIsZeroForNewList" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListSizeTest.GetSizeIsZeroForNewList
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListSizeTest
+[ RUN      ] LinkedListSizeTest.GetSizeIsZeroForNewList
+[       OK ] LinkedListSizeTest.GetSizeIsZeroForNewList (0 ms)
+[----------] 1 test from LinkedListSizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListSizeTest.GetSizeIsZeroForNewList" end time: Jul 01 10:58 India Standard Time
+"LinkedListSizeTest.GetSizeIsZeroForNewList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/77 Testing: LinkedListClearTest.ClearOnEmptyListDoesNotCrash
+52/77 Test: LinkedListClearTest.ClearOnEmptyListDoesNotCrash
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListClearTest.ClearOnEmptyListDoesNotCrash" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListClearTest.ClearOnEmptyListDoesNotCrash" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListClearTest.ClearOnEmptyListDoesNotCrash
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListClearTest
+[ RUN      ] LinkedListClearTest.ClearOnEmptyListDoesNotCrash
+[       OK ] LinkedListClearTest.ClearOnEmptyListDoesNotCrash (0 ms)
+[----------] 1 test from LinkedListClearTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListClearTest.ClearOnEmptyListDoesNotCrash" end time: Jul 01 10:58 India Standard Time
+"LinkedListClearTest.ClearOnEmptyListDoesNotCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/77 Testing: LinkedListCustomTypeTest.CanStoreAndRetrieveObjects
+53/77 Test: LinkedListCustomTypeTest.CanStoreAndRetrieveObjects
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListCustomTypeTest.CanStoreAndRetrieveObjects" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListCustomTypeTest.CanStoreAndRetrieveObjects" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListCustomTypeTest.CanStoreAndRetrieveObjects
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListCustomTypeTest
+[ RUN      ] LinkedListCustomTypeTest.CanStoreAndRetrieveObjects
+[       OK ] LinkedListCustomTypeTest.CanStoreAndRetrieveObjects (0 ms)
+[----------] 1 test from LinkedListCustomTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListCustomTypeTest.CanStoreAndRetrieveObjects" end time: Jul 01 10:58 India Standard Time
+"LinkedListCustomTypeTest.CanStoreAndRetrieveObjects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/77 Testing: LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear
+54/77 Test: LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListCustomTypeTest
+[ RUN      ] LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear
+[       OK ] LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear (0 ms)
+[----------] 1 test from LinkedListCustomTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear" end time: Jul 01 10:58 India Standard Time
+"LinkedListCustomTypeTest.ObjectsAreProperlyDestroyedOnClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/77 Testing: LinkedListCustomTypeTest.SetWorksWithCustomObjects
+55/77 Test: LinkedListCustomTypeTest.SetWorksWithCustomObjects
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/linkedlist_test.exe" "--gtest_filter=LinkedListCustomTypeTest.SetWorksWithCustomObjects" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"LinkedListCustomTypeTest.SetWorksWithCustomObjects" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = LinkedListCustomTypeTest.SetWorksWithCustomObjects
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListCustomTypeTest
+[ RUN      ] LinkedListCustomTypeTest.SetWorksWithCustomObjects
+[       OK ] LinkedListCustomTypeTest.SetWorksWithCustomObjects (0 ms)
+[----------] 1 test from LinkedListCustomTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListCustomTypeTest.SetWorksWithCustomObjects" end time: Jul 01 10:58 India Standard Time
+"LinkedListCustomTypeTest.SetWorksWithCustomObjects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/77 Testing: DoublyLinkedListInsertTest.InsertBackOnEmptyList
+56/77 Test: DoublyLinkedListInsertTest.InsertBackOnEmptyList
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListInsertTest.InsertBackOnEmptyList" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListInsertTest.InsertBackOnEmptyList" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListInsertTest.InsertBackOnEmptyList
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListInsertTest
+[ RUN      ] DoublyLinkedListInsertTest.InsertBackOnEmptyList
+[       OK ] DoublyLinkedListInsertTest.InsertBackOnEmptyList (0 ms)
+[----------] 1 test from DoublyLinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListInsertTest.InsertBackOnEmptyList" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListInsertTest.InsertBackOnEmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/77 Testing: DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder
+57/77 Test: DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListInsertTest
+[ RUN      ] DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder
+[       OK ] DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder (0 ms)
+[----------] 1 test from DoublyLinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListInsertTest.InsertBackMaintainsCorrectOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/77 Testing: DoublyLinkedListInsertTest.InsertBackIncreasesSize
+58/77 Test: DoublyLinkedListInsertTest.InsertBackIncreasesSize
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListInsertTest.InsertBackIncreasesSize" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListInsertTest.InsertBackIncreasesSize" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListInsertTest.InsertBackIncreasesSize
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListInsertTest
+[ RUN      ] DoublyLinkedListInsertTest.InsertBackIncreasesSize
+[       OK ] DoublyLinkedListInsertTest.InsertBackIncreasesSize (0 ms)
+[----------] 1 test from DoublyLinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListInsertTest.InsertBackIncreasesSize" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListInsertTest.InsertBackIncreasesSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/77 Testing: DoublyLinkedListTest.GetRetrievesCorrectElement
+59/77 Test: DoublyLinkedListTest.GetRetrievesCorrectElement
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.GetRetrievesCorrectElement" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.GetRetrievesCorrectElement" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.GetRetrievesCorrectElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.GetRetrievesCorrectElement
+[       OK ] DoublyLinkedListTest.GetRetrievesCorrectElement (0 ms)
+[----------] 1 test from DoublyLinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.GetRetrievesCorrectElement" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.GetRetrievesCorrectElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/77 Testing: DoublyLinkedListTest.GetOutOfBoundsThrowsException
+60/77 Test: DoublyLinkedListTest.GetOutOfBoundsThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.GetOutOfBoundsThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.GetOutOfBoundsThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.GetOutOfBoundsThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.GetOutOfBoundsThrowsException
+[       OK ] DoublyLinkedListTest.GetOutOfBoundsThrowsException (9 ms)
+[----------] 1 test from DoublyLinkedListTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.GetOutOfBoundsThrowsException" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.GetOutOfBoundsThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/77 Testing: DoublyLinkedListTest.SetModifiesExistingElement
+61/77 Test: DoublyLinkedListTest.SetModifiesExistingElement
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.SetModifiesExistingElement" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.SetModifiesExistingElement" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.SetModifiesExistingElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.SetModifiesExistingElement
+[       OK ] DoublyLinkedListTest.SetModifiesExistingElement (0 ms)
+[----------] 1 test from DoublyLinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.SetModifiesExistingElement" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.SetModifiesExistingElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/77 Testing: DoublyLinkedListTest.SetOutOfBoundsThrowsException
+62/77 Test: DoublyLinkedListTest.SetOutOfBoundsThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.SetOutOfBoundsThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.SetOutOfBoundsThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.SetOutOfBoundsThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.SetOutOfBoundsThrowsException
+[       OK ] DoublyLinkedListTest.SetOutOfBoundsThrowsException (9 ms)
+[----------] 1 test from DoublyLinkedListTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.SetOutOfBoundsThrowsException" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.SetOutOfBoundsThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/77 Testing: DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize
+63/77 Test: DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize
+[       OK ] DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize (0 ms)
+[----------] 1 test from DoublyLinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.RemoveExistingElementReturnsTrueAndReducesSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/77 Testing: DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse
+64/77 Test: DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse
+[       OK ] DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse (0 ms)
+[----------] 1 test from DoublyLinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.RemoveNonExistingElementReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/77 Testing: DoublyLinkedListTest.GetSizeReturnsCorrectCount
+65/77 Test: DoublyLinkedListTest.GetSizeReturnsCorrectCount
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.GetSizeReturnsCorrectCount" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.GetSizeReturnsCorrectCount" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.GetSizeReturnsCorrectCount
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.GetSizeReturnsCorrectCount
+[       OK ] DoublyLinkedListTest.GetSizeReturnsCorrectCount (0 ms)
+[----------] 1 test from DoublyLinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.GetSizeReturnsCorrectCount" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.GetSizeReturnsCorrectCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/77 Testing: DoublyLinkedListTest.GetSizeIsZeroAfterClear
+66/77 Test: DoublyLinkedListTest.GetSizeIsZeroAfterClear
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.GetSizeIsZeroAfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.GetSizeIsZeroAfterClear" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.GetSizeIsZeroAfterClear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.GetSizeIsZeroAfterClear
+[       OK ] DoublyLinkedListTest.GetSizeIsZeroAfterClear (0 ms)
+[----------] 1 test from DoublyLinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.GetSizeIsZeroAfterClear" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.GetSizeIsZeroAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/77 Testing: DoublyLinkedListTest.ClearEmptiesPopulatedList
+67/77 Test: DoublyLinkedListTest.ClearEmptiesPopulatedList
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.ClearEmptiesPopulatedList" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.ClearEmptiesPopulatedList" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.ClearEmptiesPopulatedList
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.ClearEmptiesPopulatedList
+[       OK ] DoublyLinkedListTest.ClearEmptiesPopulatedList (7 ms)
+[----------] 1 test from DoublyLinkedListTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.ClearEmptiesPopulatedList" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.ClearEmptiesPopulatedList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/77 Testing: DoublyLinkedListTest.ClearAllowsSubsequentInserts
+68/77 Test: DoublyLinkedListTest.ClearAllowsSubsequentInserts
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListTest.ClearAllowsSubsequentInserts" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListTest.ClearAllowsSubsequentInserts" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListTest.ClearAllowsSubsequentInserts
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListTest
+[ RUN      ] DoublyLinkedListTest.ClearAllowsSubsequentInserts
+[       OK ] DoublyLinkedListTest.ClearAllowsSubsequentInserts (0 ms)
+[----------] 1 test from DoublyLinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListTest.ClearAllowsSubsequentInserts" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListTest.ClearAllowsSubsequentInserts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/77 Testing: DoublyLinkedListGetTest.GetOnEmptyListThrowsException
+69/77 Test: DoublyLinkedListGetTest.GetOnEmptyListThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListGetTest.GetOnEmptyListThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListGetTest.GetOnEmptyListThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListGetTest.GetOnEmptyListThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListGetTest
+[ RUN      ] DoublyLinkedListGetTest.GetOnEmptyListThrowsException
+[       OK ] DoublyLinkedListGetTest.GetOnEmptyListThrowsException (8 ms)
+[----------] 1 test from DoublyLinkedListGetTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListGetTest.GetOnEmptyListThrowsException" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListGetTest.GetOnEmptyListThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/77 Testing: DoublyLinkedListSetTest.SetOnEmptyListThrowsException
+70/77 Test: DoublyLinkedListSetTest.SetOnEmptyListThrowsException
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListSetTest.SetOnEmptyListThrowsException" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListSetTest.SetOnEmptyListThrowsException" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListSetTest.SetOnEmptyListThrowsException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListSetTest
+[ RUN      ] DoublyLinkedListSetTest.SetOnEmptyListThrowsException
+[       OK ] DoublyLinkedListSetTest.SetOnEmptyListThrowsException (8 ms)
+[----------] 1 test from DoublyLinkedListSetTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListSetTest.SetOnEmptyListThrowsException" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListSetTest.SetOnEmptyListThrowsException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/77 Testing: DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse
+71/77 Test: DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListRemoveTest
+[ RUN      ] DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse
+[       OK ] DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse (0 ms)
+[----------] 1 test from DoublyLinkedListRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListRemoveTest.RemoveOnEmptyListReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/77 Testing: DoublyLinkedListSizeTest.GetSizeIsZeroForNewList
+72/77 Test: DoublyLinkedListSizeTest.GetSizeIsZeroForNewList
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListSizeTest.GetSizeIsZeroForNewList" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListSizeTest.GetSizeIsZeroForNewList" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListSizeTest.GetSizeIsZeroForNewList
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListSizeTest
+[ RUN      ] DoublyLinkedListSizeTest.GetSizeIsZeroForNewList
+[       OK ] DoublyLinkedListSizeTest.GetSizeIsZeroForNewList (0 ms)
+[----------] 1 test from DoublyLinkedListSizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListSizeTest.GetSizeIsZeroForNewList" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListSizeTest.GetSizeIsZeroForNewList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/77 Testing: DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash
+73/77 Test: DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListClearTest
+[ RUN      ] DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash
+[       OK ] DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash (0 ms)
+[----------] 1 test from DoublyLinkedListClearTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListClearTest.ClearOnEmptyListDoesNotCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/77 Testing: DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects
+74/77 Test: DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListCustomTypeTest
+[ RUN      ] DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects
+[       OK ] DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects (0 ms)
+[----------] 1 test from DoublyLinkedListCustomTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListCustomTypeTest.CanStoreAndRetrieveObjects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/77 Testing: DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved
+75/77 Test: DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListCustomTypeTest
+[ RUN      ] DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved
+[       OK ] DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved (0 ms)
+[----------] 1 test from DoublyLinkedListCustomTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListCustomTypeTest.ObjectsCanBeRemoved" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/77 Testing: DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects
+76/77 Test: DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects
+Command: "D:/projects/RedisLite/CollectionsLib-RedisLite/build/doublylinkedlist_test.exe" "--gtest_filter=DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects" "--gtest_also_run_disabled_tests"
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects" start time: Jul 01 10:58 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\projects\RedisLite\CollectionsLib-RedisLite\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from DoublyLinkedListCustomTypeTest
+[ RUN      ] DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects
+[       OK ] DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects (0 ms)
+[----------] 1 test from DoublyLinkedListCustomTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects" end time: Jul 01 10:58 India Standard Time
+"DoublyLinkedListCustomTypeTest.SetWorksWithCustomObjects" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: hashmap_test_NOT_BUILT
+77/77 Testing: hashmap_test_NOT_BUILT
+77/77 Test: hashmap_test_NOT_BUILT
+Command: ""
+Directory: D:/projects/RedisLite/CollectionsLib-RedisLite/build
+"hashmap_test_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"hashmap_test_NOT_BUILT" end time: Jul 01 10:58 India Standard Time
+"hashmap_test_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 01 10:58 India Standard Time

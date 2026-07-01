@@ -1,5 +1,5 @@
-## Date: June 30
-## Duration: 2 hours 
+### Date: June 30
+### Duration: 2 hours 
 
 ## Goal:
 

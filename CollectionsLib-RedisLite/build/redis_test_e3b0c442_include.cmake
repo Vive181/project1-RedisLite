@@ -1,0 +1,5 @@
+if(EXISTS "D:/projects/RedisLite/CollectionsLib-RedisLite/build/redis_test_e3b0c442_tests.cmake")
+  include("D:/projects/RedisLite/CollectionsLib-RedisLite/build/redis_test_e3b0c442_tests.cmake")
+else()
+  add_test(redis_test_NOT_BUILT redis_test_NOT_BUILT)
+endif()

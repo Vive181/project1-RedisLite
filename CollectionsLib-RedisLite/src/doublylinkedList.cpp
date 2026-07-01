@@ -47,7 +47,7 @@ public:
     {
         Node* node = (Node*)malloc(sizeof(Node));
 
-        new (node) Node(value);
+        new (node) Node(value); //creates object for Node(user defined d type)
 
         if(head == nullptr)
         {
@@ -63,8 +63,10 @@ public:
         size++;
     }
 
-    T& get(int index)
+    T& get(int index) //return reference of element 
     {
+        //reference creates another name for the same variable.
+        //but in our fun is returns a single reference
         if(index < 0 || index >= size)
         {
             throw out_of_range("Index out of range");
@@ -82,7 +84,8 @@ public:
 
     void set(int index, const T& value)
     {
-        get(index) = value;
+        get(index) = value; //get fun return the reference so that the value at the node changed.
+        //get(1) is essentially another name (an alias) for current->data.
     }
 
     bool remove(const T& value)
@@ -140,8 +143,8 @@ public:
             Node* temp = current;
             current = current->next;
 
-            temp->~Node();
-            free(temp);
+            temp->~Node(); // the compiler automatically generates it
+            free(temp); //remove temp points to the raw memory
         }
 
         head = nullptr;

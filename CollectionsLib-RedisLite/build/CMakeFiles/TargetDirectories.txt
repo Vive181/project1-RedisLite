@@ -4,6 +4,8 @@ D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/dynamic_array_te
 D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/parser_test.dir
 D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/linkedlist_test.dir
 D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/doublylinkedlist_test.dir
+D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/hashmap_test.dir
+D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/redis_test.dir
 D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/test.dir
 D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/edit_cache.dir
 D:/projects/RedisLite/CollectionsLib-RedisLite/build/CMakeFiles/rebuild_cache.dir

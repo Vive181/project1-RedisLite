@@ -1,9 +1,11 @@
-Date:June 22
-Duration: 120 minutes
+### Date: June 22
+### Duration: 120 minutes
 
-Goal: Implement functions for the `DynamicArray` class.
+## Goal: 
 
-Work Completed:
+Implement functions for the `DynamicArray` class.
+
+## Work Completed:
 
 * Implemented the `resize()` function to automatically expand the array when it reaches full capacity.
 * Implemented the default constructor to initialize the dynamic array.
@@ -16,7 +18,7 @@ Work Completed:
 * Implemented `popBack()` to remove the last element from the array.
 * Implemented utility functions: `getSize()`, `isEmpty()`, and `clear()`.
 
-Problem Encountered:
+## Problem Encountered:
 
 A segmentation fault occurred after the 9th insertion while testing the resize functionality.
 
@@ -26,6 +28,6 @@ What I Tried:
 * Added print statements to trace the element copy process during resizing.
 * Verified the values of `size` and `capacity` before and after resizing.
 
-Outcome:
+## Outcome:
 
 The issue was caused by the copy loop iterating up to `capacity` instead of `size`. This resulted in accessing memory beyond the valid elements and caused a segmentation fault. After modifying the loop to copy only the existing elements (`size`), the resize operation worked correctly, and all insertions completed successfully.

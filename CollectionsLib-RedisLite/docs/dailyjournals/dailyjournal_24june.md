@@ -1,6 +1,6 @@
-Daily Design Journal · 25-june.md
+### Daily Design Journal · 25-june.md
 
-Section 1 — Specific Bug:
+### Section 1 — Specific Bug:
 
 vivek@LAPTOP-8GRHFCJA MINGW64 /d/projects/RedisLite/CollectionsLib-RedisLite (main)
 $ cd build
@@ -42,11 +42,15 @@ CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
 no such file or directory
 CMake Error: Generator: build tool execution failed, command was: nmake -f Makefile /nologo.
 
-Section 2 — Failed Attempt: tried to build redis lite and almost discovered the path to make redislite.
+### Section 2 — Failed Attempt: 
 
-Section 3 — Memory Diagram: Hand-drawn memory diagram, photographed and submitted
+tried to build redis lite and almost discovered the path to make redislite.
+
+### Section 3 — Memory Diagram:
+
+Hand-drawn memory diagram, photographed and submitted
 every day.
 
-Section 4 — Code Reference: Commit hash, filename, and relevant line numbers.
+### Section 4 — Code Reference: Commit hash, filename, and relevant line numbers.
 
-Section 5 — Learning Reflection: learns how to make master library using cmake that can be used outside the folder .
+### Section 5 — Learning Reflection: learns how to make master library using cmake that can be used outside the folder .

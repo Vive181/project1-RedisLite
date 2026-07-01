@@ -1,9 +1,9 @@
-Date: June 29
+### Date: June 29
 
-Section 1 — Specific Bug
+### Section 1 — Specific Bug
 ---
 
-### Bug 1: Multi-word Values
+## Bug 1: Multi-word Values
 
 When executing:
 
@@ -17,7 +17,7 @@ Only the first word of the value was stored because the parser extracted the val
 
 ---
 
-### Bug 2: Google Test Compilation
+## Bug 2: Google Test Compilation
 
 Compilation failed while building Google Test.
 
@@ -32,7 +32,7 @@ The project was using MinGW GCC 6.3.0, which is incompatible with the downloaded
 
 ---
 
-### Bug 3: CMake Generator Conflict
+## Bug 3: CMake Generator Conflict
 
 After reconfiguring the project:
 
@@ -47,7 +47,7 @@ The existing build directory had been configured with a different generator.
 
 ---
 
-Section 2 — Failed Attempt
+### Section 2 — Failed Attempt
 
 Initially, I believed that modifying only the parser logic would make the Redis commands functional. Although the parser correctly extracted the command, key, and value, it only printed them to the console. Since no `Redis` object was shared between commands, no data was stored.
 
@@ -88,7 +88,7 @@ Section 4 — Code Reference
 
 ---
 
-Section 5 — Learning Reflection
+### Section 5 — Learning Reflection
 
 Today I gained a much clearer understanding of how parsing, data storage, and automated testing work together in a C++ project.
 

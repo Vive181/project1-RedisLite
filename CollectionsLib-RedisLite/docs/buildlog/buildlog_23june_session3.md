@@ -1,12 +1,12 @@
-Date: June 23
+### Date: June 23
 
-Duration: 120 minutes
+### Duration: 120 minutes
 
-Goal:
+## Goal:
 
 Implement the core functionality of a generic doubly linked list.
 
-Work Completed:
+## Work Completed:
 
 * Created a generic `DoublyLinkedList` class using templates.
 * Implemented the internal `Node` structure containing data, previous, and next pointers.
@@ -19,17 +19,17 @@ Work Completed:
 * Implemented `getSize()` to return the current number of elements in the list.
 * Implemented `clear()` to remove all nodes and reset the list to its initial empty state.
 
-Problem Encountered:
+## Problem Encountered:
 
 The main challenge was correctly handling node removal in different cases, such as deleting the first node, the last node, or a node in the middle of the list while maintaining valid `prev` and `next` links.
 
-What I Tried:
+## What I Tried:
 
 * Tested insertion with multiple elements to verify that both `head` and `tail` pointers were updated correctly.
 * Traced the `prev` and `next` pointers during removal to ensure neighboring nodes remained properly connected.
 * Verified edge cases, including removing the head node, the tail node, and the only node in the list.
 * Tested the `clear()` function to confirm that all nodes were removed and the list returned to an empty state.
 
-Outcome:
+## Outcome:
 
 Successfully implemented a functional doubly linked list supporting insertion at the back, element access, value modification, node removal, size tracking, and complete cleanup. Testing confirmed that node links remained consistent after insertion and deletion operations, and the list handled edge cases correctly.

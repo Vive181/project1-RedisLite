@@ -2,7 +2,7 @@ add_test([=[DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray]=]  D:/proj
 set_tests_properties([=[DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:20]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:43]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -11,7 +11,7 @@ add_test([=[DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically]=]  D:/
 set_tests_properties([=[DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:27]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:50]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -20,7 +20,7 @@ add_test([=[DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements]=]  D:/pro
 set_tests_properties([=[DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:39]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:62]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -29,7 +29,7 @@ add_test([=[DynamicArrayTest.GetRetrievesCorrectElement]=]  D:/projects/RedisLit
 set_tests_properties([=[DynamicArrayTest.GetRetrievesCorrectElement]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:52]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:75]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -38,7 +38,7 @@ add_test([=[DynamicArrayTest.GetOutOfBoundsThrowsException]=]  D:/projects/Redis
 set_tests_properties([=[DynamicArrayTest.GetOutOfBoundsThrowsException]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:58]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:81]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -47,7 +47,7 @@ add_test([=[DynamicArrayTest.SetModifiesExistingElement]=]  D:/projects/RedisLit
 set_tests_properties([=[DynamicArrayTest.SetModifiesExistingElement]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:72]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:99]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -56,7 +56,7 @@ add_test([=[DynamicArrayTest.SetDoesNothingForNegativeIndex]=]  D:/projects/Redi
 set_tests_properties([=[DynamicArrayTest.SetDoesNothingForNegativeIndex]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:79]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:106]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -65,7 +65,7 @@ add_test([=[DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize]=]  D:/projec
 set_tests_properties([=[DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:86]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:113]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -74,7 +74,7 @@ add_test([=[DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement]=]  D:/proj
 set_tests_properties([=[DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:96]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:123]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -83,7 +83,7 @@ add_test([=[DynamicArrayTest.PopBackMultipleTimesEmptiesArray]=]  D:/projects/Re
 set_tests_properties([=[DynamicArrayTest.PopBackMultipleTimesEmptiesArray]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:109]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:136]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -92,7 +92,7 @@ add_test([=[DynamicArrayTest.GetSizeIncreasesWithPushBack]=]  D:/projects/RedisL
 set_tests_properties([=[DynamicArrayTest.GetSizeIncreasesWithPushBack]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:125]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:152]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -101,7 +101,7 @@ add_test([=[DynamicArrayTest.GetSizeDecreasesWithPopBack]=]  D:/projects/RedisLi
 set_tests_properties([=[DynamicArrayTest.GetSizeDecreasesWithPopBack]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:131]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:158]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -110,7 +110,7 @@ add_test([=[DynamicArrayTest.IsEmptyFalseAfterPushBack]=]  D:/projects/RedisLite
 set_tests_properties([=[DynamicArrayTest.IsEmptyFalseAfterPushBack]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:145]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:172]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -119,7 +119,7 @@ add_test([=[DynamicArrayTest.IsEmptyTrueAfterClear]=]  D:/projects/RedisLite/Col
 set_tests_properties([=[DynamicArrayTest.IsEmptyTrueAfterClear]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:149]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:176]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -128,7 +128,7 @@ add_test([=[DynamicArrayTest.ClearEmptiesPopulatedArray]=]  D:/projects/RedisLit
 set_tests_properties([=[DynamicArrayTest.ClearEmptiesPopulatedArray]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:157]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:184]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -137,7 +137,7 @@ add_test([=[DynamicArrayTest.ClearAllowsSubsequentPushBacks]=]  D:/projects/Redi
 set_tests_properties([=[DynamicArrayTest.ClearAllowsSubsequentPushBacks]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:169]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:196]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -146,7 +146,7 @@ add_test([=[DynamicArrayTest.CopyConstructorCreatesDeepCopy]=]  D:/projects/Redi
 set_tests_properties([=[DynamicArrayTest.CopyConstructorCreatesDeepCopy]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:179]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:206]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -155,7 +155,7 @@ add_test([=[DynamicArrayTest.CopyConstructorIndependentScaling]=]  D:/projects/R
 set_tests_properties([=[DynamicArrayTest.CopyConstructorIndependentScaling]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:197]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:224]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -164,7 +164,7 @@ add_test([=[DynamicArrayTest.CopyAssignmentCreatesDeepCopy]=]  D:/projects/Redis
 set_tests_properties([=[DynamicArrayTest.CopyAssignmentCreatesDeepCopy]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:211]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:238]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -173,7 +173,7 @@ add_test([=[DynamicArrayTest.CopyAssignmentHandlesSelfAssignment]=]  D:/projects
 set_tests_properties([=[DynamicArrayTest.CopyAssignmentHandlesSelfAssignment]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:225]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:252]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -182,7 +182,16 @@ add_test([=[DynamicArrayGetTest.GetOnEmptyArrayThrowsException]=]  D:/projects/R
 set_tests_properties([=[DynamicArrayGetTest.GetOnEmptyArrayThrowsException]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:64]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:87]==]
+    WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayCustomUserTest.GetReturnsCorrectObject]=]  D:/projects/RedisLite/CollectionsLib-RedisLite/build/dynamic_array_test.exe [==[--gtest_filter=DynamicArrayCustomUserTest.GetReturnsCorrectObject]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayCustomUserTest.GetReturnsCorrectObject]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:92]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -191,7 +200,7 @@ add_test([=[DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash]=]  D:/proje
 set_tests_properties([=[DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:103]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:130]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -200,7 +209,7 @@ add_test([=[DynamicArraySizeTest.GetSizeIsZeroForNewArray]=]  D:/projects/RedisL
 set_tests_properties([=[DynamicArraySizeTest.GetSizeIsZeroForNewArray]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:120]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:147]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -209,7 +218,7 @@ add_test([=[DynamicArrayEmptyTest.IsEmptyTrueForNewArray]=]  D:/projects/RedisLi
 set_tests_properties([=[DynamicArrayEmptyTest.IsEmptyTrueForNewArray]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:140]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:167]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -218,7 +227,7 @@ add_test([=[DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash]=]  D:/projects/
 set_tests_properties([=[DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:163]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:190]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -227,7 +236,7 @@ add_test([=[DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks]=] 
 set_tests_properties([=[DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:189]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:216]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -236,7 +245,7 @@ add_test([=[DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData]
 set_tests_properties([=[DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:232]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:259]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -245,7 +254,7 @@ add_test([=[DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects]=]  D:/project
 set_tests_properties([=[DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:258]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:277]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -254,9 +263,9 @@ add_test([=[DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize]=]  D:/p
 set_tests_properties([=[DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize]=]
   PROPERTIES
     
-    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:273]==]
+    DEF_SOURCE_LINE [==[D:\projects\RedisLite\CollectionsLib-RedisLite\tests\dynamicArraytesting.cpp:292]==]
     WORKING_DIRECTORY [==[D:/projects/RedisLite/CollectionsLib-RedisLite/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
 )
-set(dynamic_array_test_TESTS [==[DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray]==] [==[DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically]==] [==[DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements]==] [==[DynamicArrayTest.GetRetrievesCorrectElement]==] [==[DynamicArrayTest.GetOutOfBoundsThrowsException]==] [==[DynamicArrayTest.SetModifiesExistingElement]==] [==[DynamicArrayTest.SetDoesNothingForNegativeIndex]==] [==[DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize]==] [==[DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement]==] [==[DynamicArrayTest.PopBackMultipleTimesEmptiesArray]==] [==[DynamicArrayTest.GetSizeIncreasesWithPushBack]==] [==[DynamicArrayTest.GetSizeDecreasesWithPopBack]==] [==[DynamicArrayTest.IsEmptyFalseAfterPushBack]==] [==[DynamicArrayTest.IsEmptyTrueAfterClear]==] [==[DynamicArrayTest.ClearEmptiesPopulatedArray]==] [==[DynamicArrayTest.ClearAllowsSubsequentPushBacks]==] [==[DynamicArrayTest.CopyConstructorCreatesDeepCopy]==] [==[DynamicArrayTest.CopyConstructorIndependentScaling]==] [==[DynamicArrayTest.CopyAssignmentCreatesDeepCopy]==] [==[DynamicArrayTest.CopyAssignmentHandlesSelfAssignment]==] [==[DynamicArrayGetTest.GetOnEmptyArrayThrowsException]==] [==[DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash]==] [==[DynamicArraySizeTest.GetSizeIsZeroForNewArray]==] [==[DynamicArrayEmptyTest.IsEmptyTrueForNewArray]==] [==[DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash]==] [==[DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks]==] [==[DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData]==] [==[DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects]==] [==[DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize]==])
+set(dynamic_array_test_TESTS [==[DynamicArrayPushBackTest.PushBackAddsElementToEmptyArray]==] [==[DynamicArrayPushBackTest.PushBackTriggersResizeAutomatically]==] [==[DynamicArrayPushBackTest.PushBackMaintainsOrderOfElements]==] [==[DynamicArrayTest.GetRetrievesCorrectElement]==] [==[DynamicArrayTest.GetOutOfBoundsThrowsException]==] [==[DynamicArrayTest.SetModifiesExistingElement]==] [==[DynamicArrayTest.SetDoesNothingForNegativeIndex]==] [==[DynamicArrayTest.SetDoesNothingForIndexGreaterThanSize]==] [==[DynamicArrayTest.PopBackReducesSizeAndRemovesLastElement]==] [==[DynamicArrayTest.PopBackMultipleTimesEmptiesArray]==] [==[DynamicArrayTest.GetSizeIncreasesWithPushBack]==] [==[DynamicArrayTest.GetSizeDecreasesWithPopBack]==] [==[DynamicArrayTest.IsEmptyFalseAfterPushBack]==] [==[DynamicArrayTest.IsEmptyTrueAfterClear]==] [==[DynamicArrayTest.ClearEmptiesPopulatedArray]==] [==[DynamicArrayTest.ClearAllowsSubsequentPushBacks]==] [==[DynamicArrayTest.CopyConstructorCreatesDeepCopy]==] [==[DynamicArrayTest.CopyConstructorIndependentScaling]==] [==[DynamicArrayTest.CopyAssignmentCreatesDeepCopy]==] [==[DynamicArrayTest.CopyAssignmentHandlesSelfAssignment]==] [==[DynamicArrayGetTest.GetOnEmptyArrayThrowsException]==] [==[DynamicArrayCustomUserTest.GetReturnsCorrectObject]==] [==[DynamicArrayPopBackTest.PopBackOnEmptyArrayDoesNotCrash]==] [==[DynamicArraySizeTest.GetSizeIsZeroForNewArray]==] [==[DynamicArrayEmptyTest.IsEmptyTrueForNewArray]==] [==[DynamicArrayClearTest.ClearOnEmptyArrayDoesNotCrash]==] [==[DynamicArrayCopyConstructorTest.CopyConstructorOnEmptyArrayWorks]==] [==[DynamicArrayCopyAssignmentTest.CopyAssignmentOverwritesExistingData]==] [==[DynamicArrayCustomTypeTest.CanStoreAndRetrieveObjects]==] [==[DynamicArrayCustomTypeTest.ObjectsAreDeepCopiedDuringResize]==])
